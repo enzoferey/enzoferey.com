@@ -116,6 +116,25 @@ li {
 	font-family: Montserrat;
 }
 
+@media (max-width: 767px)
+{
+	.col-xs-0, .col-sm-0, .col-md-0, .col-lg-0 {
+		display: none;
+	}
+}
+
+.icon-bar-father {
+	background: white; 
+	margin-left: 10px; 
+	padding: 9px 10px;
+	width: 42px; 
+	border-radius: 4px;
+}
+
+.icon-bar {
+	border: 1px solid black;
+}
+
 /*************** FONTS **************/
 @font-face {
 	font-family: PoiretOne; 
