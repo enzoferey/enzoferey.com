@@ -135,6 +135,42 @@ li {
 	border: 1px solid black;
 }
 
+#side-menu-collapsable {
+	width: 200px;
+	height: 250px;
+	left: -200px;
+	position: absolute;
+	background: #111111;
+	display: none;
+	z-index: 2;
+	border-radius: 0 0 5px 0;
+}
+
+#side-menu-collapsable li{
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 10px;
+	height: 50px;
+	margin-top: 20px;
+	width: 200px;
+	text-align: center;
+}
+
+#side-menu-collapsable a {
+	color: white;
+}
+
+#side-menu-collapsable a:hover {
+	color: white;
+}
+
+#side-menu-collapsable li:first-child {
+	margin-top: 50px;
+}
+
+
+
 /*************** FONTS **************/
 @font-face {
 	font-family: PoiretOne; 
