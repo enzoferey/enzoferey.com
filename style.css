@@ -182,6 +182,39 @@ li {
 	padding-right: 0;
 }
 
+article img {
+	max-width: 100%;
+}
+
+#search-input {
+	position: absolute;
+	right: 0px;
+	top: 0; 
+	height: 48px;
+	width: 0px;
+	z-index: 3;
+}
+
+#search-input-input {
+	display: none;
+	background: #222222;
+	color: #999999;
+	border: none;
+	outline: none;
+	height: 48px;
+	padding-left: 20px;
+	width: 100%;
+	font-size: 12px;
+	top: 0;
+	position: absolute;
+	right: 0;
+}
+
+#search-icon {
+	z-index: 10;
+	position: relative;
+}
+
 
 /*************** FONTS **************/
 @font-face {
