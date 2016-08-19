@@ -1,0 +1,689 @@
+body {
+	background-color: #ffffff;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none; 
+	color: #222222;
+}
+
+/*************** TOP BAR **************/
+#top-bar {
+	background-color: #111111;
+	width: 100%;
+	height: 3em;
+}
+
+#top-bar-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#top-bar-nav {
+	position: relative;
+	top: 25%;
+	font-family: Montserrat;
+}
+
+#top-bar-nav a {
+	margin-right: 5%;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+#top-bar-right {
+	float:right;
+	width: 50%;
+	height: 100%;
+}
+
+#top-bar-social {
+	text-align: right;
+	height: 100%;
+	display: block;
+	list-style: none;
+	margin: 0;
+	width: 84%;
+	float: left;
+}
+
+#top-bar-social li {
+	width: 40px;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+}
+
+#top-bar-social li:hover {
+	background-color: #2d2d2d;
+}
+
+#top-bar-social a {
+	width: 100%;
+	height: 100%;
+	line-height: 45px;
+}
+
+#top-bar-social .fa {
+	color: #ffffff;
+}
+
+#top-bar-search {
+	position: absolute;
+	right: 0;
+	width: 0%;
+	min-width: 40px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+
+#search-icon {
+	height: 100%;
+	line-height: 45px;
+	position: absolute;
+	text-align: center;
+	z-index: 1000;
+	right: 0;
+	width: 40px;
+	color: #ffffff;
+}
+
+#search-icon:hover {
+	background-color: #2d2d2d;
+}
+
+#top-bar-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: #222222;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	z-index: 10;
+	padding-left: 20px;
+	font-family: inherit;
+	font-size: 14px;
+	color: #999999;
+}
+
+
+/*************** LOGO **************/
+#logo {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: PoiretOne;
+	font-size: 60px;
+}
+
+/*************** NAV BAR **************/
+#nav-bar {
+	height: 3em;
+	border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: #eaeaea;
+    font-family: Montserrat;
+}
+
+#nav-bar a {
+	position: relative;
+	top: 25%;
+	margin-left: 3%;
+	margin-right: 3%; 
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+/*************** CONTENT **************/
+#content {
+	background-color: #f6f6f6;
+	min-height: 200px;
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+
+#parameters {
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+/************** MAIN PAGE ************/
+#entries {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-height: 200px;
+}
+
+.entry {
+	display: inline-block;
+	width: 31%;
+	height: 200px;
+	float: left;
+	background-color: #ffffff;
+	margin: 0 0 40px 3%;
+	padding-bottom: 200px;
+	border-bottom: 1px solid #e7e7e7;
+
+	transition: transform .2s ease-in-out;
+}
+
+.entry:hover {
+	transform: scale(1.1);
+}
+
+.entry-thumbmail {
+	background-color: #000000;
+	width: 100%; 
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	font-family: Montserrat;
+	line-height: 200px;
+}
+
+.entry-body {
+	width: 84%;
+	height: 200px;
+	margin-left: 8%;
+	margin-top: 8%;
+}
+
+.entry-title {
+	font-family: Montserrat;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #333333;
+	font-weight: bold;
+}
+
+.entry-date {
+	font-size: 12px;
+	color: #888896;
+	font-family: Lato;
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+.entry-resume {
+	font-size: 14px;
+	color: #666666;
+	font-family: Lato;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.entry-bottom {
+	width: 100%;
+	height: 30px;
+	margin-top: 8%;
+	font-family: Montserrat;
+	font-size: 12px;
+}
+
+.entry-share {
+	display: inline-block;
+	width: 50%;
+}
+
+.entry-share-button {
+	background-color: #f1f1f1;
+	color: #333333;
+	float: left;
+	padding: 5px 14px;
+	cursor: pointer;
+}
+
+.entry-share-popup {
+	opacity: 0;
+	float: left;
+	height: 100%;
+	width: 25%;
+	position: relative;
+	left: 5px;
+}
+
+#share-facebook {
+	margin-left: 5%;
+	margin-right: 7%;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	color: #333333;
+}
+
+#share-facebook a:hover {
+	color: #999999;
+}
+
+#share-twitter {
+	margin-left: 7%;
+	margin-right: 5%;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	color: #333333;
+}
+
+#share-twitter a:hover {
+	color: #999999;
+}
+
+.entry-read-more {
+	background-color: #48d8f9;
+	color: #ffffff;
+	float: right;
+	padding: 5px 14px;
+	cursor: pointer;
+	transition: .25s;
+}
+
+.entry-read-more:hover {
+	background-color: #f1f1f1;
+	color: #333333;
+}
+
+/*************** SINGLE POST **********/
+
+#post {
+	background-color: rgb(255, 255, 255);
+	margin-top: 5%;
+	width: 70%;
+	float: left;
+}
+
+#post-title {
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+#post-subtitle {
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: Montserrat;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#post-subtitle span {
+	position: relative;
+	background: #ffffff;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#post-subtitle:before {
+    content:"";
+    background: #48d8f9;
+    height: 8px;
+    margin-top: -4px;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+#post-img {
+	width: 100%;
+	height: 500px;
+	background-color: #000000;
+	margin-bottom: 5%;
+}
+
+#post-text {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-family: Lato;
+	font-size: 15px;
+	color: #666666;
+}
+
+#post-bottom {
+	color: #333333;
+	font-family: Montserrat;
+	width: 90%;
+	margin-left: 5%;
+	padding-bottom: 50px;
+}
+
+#post-tags {
+	float: left;
+	width: 50%;
+}
+
+.tag {
+	padding: 5px 10px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	transition: .25s;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.tag:hover {
+	background-color: #48d8f9;
+	color: #ffffff;
+}
+
+.post-share {
+	display: inline-block;
+	width: 25%;
+	float: right;
+}
+
+.post-share-button {
+	background-color: #ffffff;
+	color: #333333;
+	float: right;
+	padding: 5px 14px;
+	cursor: pointer;
+}
+
+.post-share-popup {
+	opacity: 0;
+	float: right;
+	height: 100%;
+	width: 25%;
+	position: relative;
+	left: 20px;
+}
+
+/*************** SIDEBAR **************/
+
+#sidebar {
+	float: right;
+	width: 26%;
+	margin-top: 5%;
+}
+
+.widget:not(:first-child) {
+	margin-top: 50px;
+}
+
+.recent-post {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #e7e7e7;
+}
+
+.recent-post:hover .recent-post-title {
+	color: #48d8f9;
+}
+
+.recent-post:hover .mask {
+	opacity: 1;
+}
+
+.recent-post-content {
+	margin-top: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 200%;
+	font-size: 14px;
+	color: #333333;
+}
+
+.recent-post-img {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+}
+
+.recent-post-title {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.recent-post-date {
+	font-family: Lato;
+	font-weight: normal;
+}
+
+.mask {
+	opacity: 0;
+	background-color: rgba(72,216,249, 0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.recent-post-img img {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.recent-post-img:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.ads {
+	width: 90%;
+	height: 500px;
+	line-height: 500px;
+	background-color: #d3d3d3;
+	color: #333333;
+	text-align: center;
+	margin-left: 5%;
+	font-family: Montserrat;
+	font-size: 18px;
+	margin-top: 5%;
+}
+
+/*************** ARCHIVES *************/
+
+.archives-title {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	width: 90%;
+	margin-left: 5%;
+	padding: 3% 0 3% 0;
+	margin-bottom: 5%;
+}
+
+.archives-list {
+	list-style: none;
+	padding: 0;
+	width: 80%;
+	margin: 0 0 0 10%;
+}
+
+.archives-list li {
+	font-family: Lato;
+	font-style: italic;
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 3%;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 2% 0 2% 0;
+}
+
+.archives-list li a {
+	font-weight: normal;
+}
+
+.archives-list li a:hover {
+	color: #48d8f9;
+}
+
+.archives-list li:last-child {
+	margin-bottom: 10%;
+}
+
+/*************** CONTACT **************/
+
+#map {
+	width: 50%; 
+	float: left; 
+	height: 500px; 
+	margin-top: 5%;
+}
+
+#about-me {
+	width: 50%; 
+	float: right; 
+	height: 500px; 
+	margin-top: 5%;
+}
+
+.widget-title {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #333333;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: Montserrat;
+	width: 80%;
+}
+
+.widget-title span {
+	position: relative;
+	background: #f6f6f6;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.widget-title:before {
+    content:"";
+    background: #d3d3d3;
+    height: 8px;
+    margin-top: -4px;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+#about-me-img {
+	float: left;
+	width: 30%;
+	margin-right: 30px;
+}
+
+#about-me-img img {
+	width: 100%;
+	height: auto;
+}
+
+#about-me-bio {
+	width: 80%;
+	font-family: Lato;
+	color: #333333;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#contact-mail {
+	font-family: Montserrat; 
+	font-style: italic; 
+	font-size: 30px;
+}
+
+#contact {
+	width: 80%; 
+	text-align: center; 
+	color: #333333;
+}
+
+
+/*************** FOOTER **************/
+#bottom-bar {
+	background-color: #ffffff;
+	width: 100%;
+	height: 6em;
+}
+
+#bottom-bar-left {
+	float:left;
+	width: 50%;
+	height: 100%;
+}
+
+#bottom-bar-right {
+	float:right;
+	width: 50%;
+	height: 100%;
+	text-align: right;
+}
+
+#bottom-bar-logo {
+	font-family: PoiretOne;
+	font-size: 40px;
+	vertical-align: middle;
+	line-height: 3em;
+}
+
+#copyright {
+	font-family: Montserrat;
+	position: relative;
+	top: 50%;
+}
+
+/*************** MISSCELLANOUS **************/
+@font-face {
+	font-family: PoiretOne; 
+	src: url('PoiretOne-Regular.ttf');
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url('montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+	font-family: Lato;
+	src: url('lato/Lato-Regular.ttf');
+}

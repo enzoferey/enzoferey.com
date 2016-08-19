@@ -1,0 +1,891 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"rece",
+				"recent-post"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"rec",
+				"recent-post"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"share",
+				"share-facebook"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"entry-share",
+				"entry-share-popup"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"wid",
+				"widget-title"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"top-bar",
+				"top-bar-search-input"
+			],
+			[
+				"top-b",
+				"top-bar-search"
+			],
+			[
+				"top-a",
+				"top-bar-social"
+			],
+			[
+				"d",
+				"div-icon"
+			],
+			[
+				"nav-",
+				"nav-bar-header"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"se",
+				"setEmployees"
+			],
+			[
+				"emplo",
+				"employeeListView"
+			],
+			[
+				"cart",
+				"cartTakeAway"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"arro",
+				"arrow-back"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"File",
+				"FileOutputStream"
+			],
+			[
+				"URI",
+				"Uri"
+			],
+			[
+				"Co",
+				"getBaseContext"
+			],
+			[
+				"C",
+				"createChooser"
+			],
+			[
+				"PR",
+				"PRB45"
+			],
+			[
+				"A1",
+				"A1"
+			],
+			[
+				"updat",
+				"updateTotal"
+			],
+			[
+				"total",
+				"total-products"
+			],
+			[
+				"list",
+				"listOfProducts"
+			],
+			[
+				"produc",
+				"products-antipasti"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mrmelo",
+				"mrmelongames"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"cade",
+				"cadenaPersonajes"
+			],
+			[
+				"perso",
+				"personaje_id"
+			],
+			[
+				"muert",
+				"muerto_id"
+			],
+			[
+				"ase",
+				"asesino_id"
+			],
+			[
+				"inser",
+				"insert3"
+			],
+			[
+				"armama",
+				"armaManchada_id"
+			],
+			[
+				"nEe",
+				"nElementosSangre"
+			],
+			[
+				"table",
+				"table2"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_row"
+			],
+			[
+				"z",
+				"zCorpse"
+			],
+			[
+				"y",
+				"yCorpse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7257,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single-post.html",
+			"settings":
+			{
+				"buffer_size": 2886,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "archives.html",
+			"settings":
+			{
+				"buffer_size": 1121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sidebar.html",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.html",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 1718,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 10288,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/closed.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/index.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/js/index.js",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/css/index.css",
+		"/C/Users/Enzo Ferey/Desktop/sendMail.php",
+		"/C/Users/Enzo Ferey/Desktop/query.php",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/config.xml",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/EmployeeListView.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/EmployeeView.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/index.html",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/HomeView.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/app.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/services/memory/EmployeeService.js",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Mr Melon/Cameleon/Cameleon.gmx/extensions/GooglePlayServicesExtension/AndroidSource/Java/GooglePlayServicesExtension.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.gmx/extensions/Share/AndroidSource/Java/Share.java",
+		"/C/Users/Enzo Ferey/Desktop/Defold/artifacts.xml",
+		"/C/Users/Enzo Ferey/Desktop/SimplejQueryDropdowns/css/style.css",
+		"/C/Users/Enzo Ferey/Desktop/SimplejQueryDropdowns/js/jquery.dropdownPlain.js",
+		"/C/Users/Enzo Ferey/Desktop/SimplejQueryDropdowns/js/jquery.dropdown.js",
+		"/C/Users/Enzo Ferey/Desktop/SimplejQueryDropdowns/index.html",
+		"/C/Users/Enzo Ferey/Desktop/enzoferey/index.html",
+		"/C/Users/Enzo Ferey/Desktop/SimplejQueryDropdowns/css/ie.css",
+		"/C/Users/Enzo Ferey/Desktop/enzoferey/style.css",
+		"/C/Users/Enzo Ferey/Desktop/enzoferey/jquery.min.js",
+		"/C/xampp/htdocs/enzoferey/wp-config.php",
+		"/C/Users/Enzo Ferey/Desktop/cordova-tutorial-master/starter-www/js/app.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/EnployeeListView.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/assets/ratchet/css/ratchet.css",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/assets/css/styles.css",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/assets/ratchet/css/ratchet-theme-android.css",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/assets/css/pageslider.css",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/services/websql/EmployeeService.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/services/localstorage/EmployeeService.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/www/js/services/json/EmployeeService.js",
+		"/C/Users/Enzo Ferey/Desktop/TutorialCordova/config.xml",
+		"/C/Users/Enzo Ferey/Desktop/tonyproductscarousel.tpl",
+		"/C/Users/Enzo Ferey/Desktop/tonyproductscarousel_product.tpl",
+		"/C/Users/Enzo Ferey/Desktop/index.php",
+		"/C/Users/Enzo Ferey/Desktop/footer.tpl",
+		"/C/Users/Enzo Ferey/Desktop/index.tpl",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Offtopic Mr Melon/Corpse Hunter/Demo/Assets/Scripts/Hide.cs",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Offtopic Mr Melon/Corpse Hunter/Demo/Assets/Scripts/Find.cs",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Offtopic Mr Melon/Corpse Hunter/CadaverHunt/Assets/Script/_GameSaveLoad.cs",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Offtopic Mr Melon/Corpse Hunter/crossdomain.xml",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Offtopic Mr Melon/Corpse Hunter/index.php",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/antipasti.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/bebida.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/hamburguesa.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/pizza.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/pastarellena.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/www/pasta.html",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+		"/C/Users/Enzo Ferey/Desktop/vitaliano/plugins/cordova-plugin-splashscreen/src/android/SplashScreen.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Screenshot.class",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Rar$DIa0.676/Noise.cs",
+		"/C/Users/Enzo Ferey/Desktop/MultiAlmacenJCSP.java",
+		"/C/Users/Enzo Ferey/Desktop/CC_10_PmultiJCSP.java",
+		"/C/Users/Enzo Ferey/Desktop/PracticaBD.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 6 - Indexación Procesos.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 5 - Indexación Parámetros.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 4 - Dos Conditions No Simétricas.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 3 - Dos Conditions Simétricas.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 2 - Una Condition.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 1 - Exclusión Mútua.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/JCSP/Esquema 4 - Replicación Canales.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/JCSP/Esquema 3 - Peticiones Aplazadas.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/JCSP/Esquema 2- Recepción Alternativa.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/JCSP/Esquema 1 - Básico.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Almacen N Datos/AlmacenN.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Esquema 3 - Dos Conditions.java",
+		"/C/Users/Enzo Ferey/Desktop/3ª Entrega Bases/PracticaBD.java",
+		"/C/Users/Enzo Ferey/Desktop/Segundo Parcial Concurrencia/Monitores/Alarma/Indexación Parámetros/AlarmasMonParams.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_17.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_22.java",
+		"/C/Users/Enzo Ferey/Desktop/PruebasEclipse/BasesDatos/src/PracticaBD/PracticaBD.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_21.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_18.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_19.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_20.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_16.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_15.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_14.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_13.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_12.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_11.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_09.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_10.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_08.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_07.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_06.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_05.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_04.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_03.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_02.java",
+		"/C/Users/Enzo Ferey/Desktop/Bases de Datos/Tema 3/es/EJ2_01.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/AlarmasMonParams.java",
+		"/C/Users/Enzo Ferey/Desktop/Taller Unity AEV/2D/Taller 2D/Assets/Scripts/PlayerTutorial.cs",
+		"/C/Users/Enzo Ferey/Desktop/Práctica Concurrencia/AlarmasMonProcs.java",
+		"/C/Users/Enzo Ferey/Desktop/Demium Pre Mr Melon Games/Basic Platform Multiplayer Movement/InputManager.cs",
+		"/C/Users/Enzo Ferey/Desktop/Demium Pre Mr Melon Games/Basic Platform Multiplayer Movement/Controller2D.cs",
+		"/C/Users/Enzo Ferey/Desktop/Demium Pre Mr Melon Games/Basic Platform Multiplayer Movement/Player.cs",
+		"/C/Users/Enzo Ferey/Desktop/EJ1.java",
+		"/C/Users/Enzo Ferey/Desktop/EJ2_01.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Rar$DIa0.913/PracticaInterface.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Rar$DIa0.425/PracticaBD.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Rar$DIa0.466/PracticaInterface.java",
+		"/C/Users/Enzo Ferey/Desktop/yanguas.html",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.gmx/extensions/Share/AndroidSource/Java/Screenshot.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/GMKeyboard.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/RunnerFacebook.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.gmx/extensions/GenericTest/AndroidSource/Java/GenericTest.java",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Mr Melon/Cameleon/Cameleon.gmx/extensions/GooglePlayServicesExtension/AndroidSource/Java/GcmBroadcastReceiver.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/src/GenericTest.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.gmx/extensions/GenericTest/Share.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/src/Share.java",
+		"/C/Users/Enzo Ferey/Desktop/Juegos Mr Melon/JumpingPig/JumpingPig.gmx/extensions/GooglePlayServicesExtension/yymanifest.xml",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.gmx/extensions/Share/Share.java",
+		"/C/Users/Enzo Ferey/Desktop/Share/Share.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/AlmacenN.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Alarmas.java",
+		"/C/Users/Enzo Ferey/Desktop/JumpingPig/JumpingPig.gmx/extensions/GooglePlayServicesExtension/AndroidSource/Java/GcmBroadcastReceiver.java",
+		"/C/Users/Enzo Ferey/Desktop/MultiAlmacenMon.java",
+		"/C/Users/Enzo Ferey/Desktop/pruebaSuma.js",
+		"/C/Users/Enzo Ferey/Desktop/Google_Mobile_Ads1.gmx/extensions/GooglePlayServicesExtension/AndroidSource/Java/GcmBroadcastReceiver.java",
+		"/C/Users/Enzo Ferey/AppData/Local/Temp/Rar$DIa0.827/EJ2_28.java",
+		"/C/Users/Enzo Ferey/Desktop/3ª Entrega Bases/sistema_bancario.sql",
+		"/C/Users/Enzo Ferey/Desktop/es_int.s",
+		"/C/Program Files (x86)/Steam/steamapps/common/The Guest/TheGuestSteam_Test_Data/SavedDir/save_data.xml"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a:hover",
+			"hover",
+			"post-title",
+			"widget-title",
+			"share",
+			"before",
+			"content",
+			"#div-search",
+			"$('.search-key').on('keyup', findByName);",
+			"bar bar-standard",
+			"bar bar-standard ",
+			"bar bar-standard bar-header-secondary",
+			"order",
+			"cart-products",
+			"del",
+			"GoogleAna",
+			"fromFile",
+			"startActi",
+			"context",
+			"startActivity",
+			"RTI",
+			"INIT",
+			"BSET",
+			"D5",
+			"LINRTI",
+			"EFF",
+			"EFFC17",
+			"after_widget",
+			"more_link_text",
+			"more",
+			"entry_meta",
+			"entry",
+			"meta",
+			"get_metadata",
+			"setHealthBar",
+			"Find",
+			"speedColor",
+			"itemSelection",
+			"Pathfinding",
+			"Find",
+			"getDistance"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6061,
+								6061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "single-post.html",
+					"settings":
+					{
+						"buffer_size": 2886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2886
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "archives.html",
+					"settings":
+					{
+						"buffer_size": 1121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sidebar.html",
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.html",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1513,
+								1513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "footer.html",
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "contact.html",
+					"settings":
+					{
+						"buffer_size": 1718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 2298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2214,
+								2214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 10288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2183,
+								2183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Enzo Ferey/Desktop/TutorialReact/react-spa/react-spa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

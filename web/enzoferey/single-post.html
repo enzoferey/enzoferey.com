@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div id="header"></div>
+	<div id="content">
+		<div id="container" style="position: relative; left: 15%; width: 70%; height: 100%">
+			<div id="post">
+				<div id="post-title">VERY LONG TITLE</div>
+				<div id="post-subtitle"><span>TAG &#9679; 28 JULY 2016</span></div>
+				<div id="post-img"></div>
+				<div id="post-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nibh accumsan, pulvinar odio ac, sollicitudin lorem. Nunc consequat elit lorem, aliquam pellentesque tellus iaculis at. Nam ligula nunc, tincidunt laoreet tincidunt non, semper sed mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec non risus convallis, fringilla mi non, tincidunt urna. Pellentesque magna mi, dapibus ut dictum dapibus, tempor quis ex. Sed leo velit, dapibus ut felis imperdiet, tristique ultrices felis. Fusce cursus dignissim vestibulum. Mauris vehicula aliquet commodo. Donec id lacinia nisl, nec interdum metus. Nullam faucibus ut quam sed hendrerit.
+
+					Maecenas arcu eros, porttitor quis bibendum a, porttitor et orci. Morbi nec leo ligula. Mauris sed tellus massa. Maecenas fringilla ligula sed vulputate congue. Suspendisse feugiat malesuada sapien, eu tempor mauris tempor ut. Phasellus sed magna sit amet ex accumsan tempus sit amet nec nisl. Aenean vitae tristique orci. Cras et mollis nibh. Ut interdum placerat nisl, ac malesuada nisl. Nulla facilisi. Curabitur consectetur arcu vitae consectetur rutrum. Nunc cursus lacinia scelerisque. Nunc at nisi faucibus lorem eleifend fermentum at id nunc. 
+				</div>
+				<div id="post-bottom">
+					<div id="post-tags"><div class="tag">tag1</div><div class="tag">tag2</div><div class="tag">tag3</div></div>
+					<div class="post-share">
+						<div class="post-share-button">SHARE <i class="fa fa-share-alt" aria-hidden="true" style="color: #333333"></i></div>
+						<div class="post-share-popup">
+							<div id="share-facebook"><a class="fa fa-facebook" href="http://www.facebook.com/sharer.php?u=http://enzoferey.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');return false;" aria-hidden="true"></a></div>
+							<div id="share-twitter"><a class="fa fa-twitter" href="https://twitter.com/share?url=http://enzoferey.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');return false;"aria-hidden="true"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="sidebar"></div>
+		</div>
+	</div>
+	<div id="footer"></div>
+
+	<script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html");
+        $("#sidebar").load("sidebar.html");
+    </script>
+</body>
+</html>
