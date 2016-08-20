@@ -18,7 +18,7 @@ var main = function() {
     }
     else if($('#top-bar-search-input').val() != '')
     {
-      window.location.href = 'http://rinjani.themesawesome.com/';
+      window.location.href = '';
     }
   });
 
