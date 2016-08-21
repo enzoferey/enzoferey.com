@@ -21705,13 +21705,15 @@
 	    menu: ['Home', 'Blog', 'About', 'Contact'],
 	    // thresholds for valid swipe
 	    minX: 5,
-	    maxY: 50
+	    maxY: 50,
+	    speed: 300
 	};
 
 	ReactSwipeNavigate.propTypes = {
 	    menu: _react.PropTypes.array,
 	    minX: _react.PropTypes.number,
-	    maxY: _react.PropTypes.number
+	    maxY: _react.PropTypes.number,
+	    speed: _react.PropTypes.number
 	};
 
 	exports.default = ReactSwipeNavigate;
