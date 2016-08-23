@@ -99,6 +99,21 @@ a {
 	}
 }
 
+#powered {
+	float: right;
+	line-height: 60px;
+	color: white;
+	position: relative;
+	right: 20px;
+}
+
+#powered img {
+	height: 20px; 
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+
 @font-face {
 	font-family: PoiretOne; 
 	src: url('mobile/PoiretOne-Regular.ttf');
