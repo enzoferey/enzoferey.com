@@ -13,22 +13,35 @@ a {
 	height: 100%;
 	font-family: PoiretOne;
 	color: #222222;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .black-bar {
+	width: 100%;
 	height: 60px;
 	background: #222222;
 }
 
+.top {
+	align-self: flex-start;
+}
+
+.bottom {
+	align-self: flex-end;
+}
+
 #content {
-	height: calc(100% - 120px);
+	width: 100%;
 }
 
 #logo {
 	font-size: 120px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 10%;
 	padding-bottom: 80px;
 }
 
