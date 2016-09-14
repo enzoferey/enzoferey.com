@@ -61,6 +61,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	__webpack_require__(174);
+	__webpack_require__(178);
 
 	_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
 
@@ -21967,6 +21968,12 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 178 */
+/***/ function(module, exports) {
+
+	module.exports = {"texts":{"group":[{"question":["Objetivo"],"answer":["Mantenimiento","Musculación","Resistencia","Adelgazar","Competición"],"result":["Ha elegido mantenimiento como objetivo","Ha elegido musculación como objetivo","Ha elegido resistencia como objetivo","Ha elegido adelgazar como objetivo","Ha elegido competición como objetivo"]},{"question":["Hábitos Deportivos"],"answer":["No practico deporte","A veces","Medio","Activo","Muy activo"],"result":["No practica deporte","Practica deporte a veces","Es medio deportista","Es un activo deportista","Es un deportista muy activo"]},{"question":["Edad"],"answer":["18 - 28","29 - 39","49 - 59","59 - 69","> 70"],"result":["Edad entre 18 - 28","Edad entre 29 - 39","Edad entre 49 - 59","Edad entre 59 - 69","Edad > 70"]},{"question":["Compromiso"],"answer":["1","2","3","4","5"],"result":["Grado de compriso 1","Grado de compriso 2","Grado de compriso 3","Grado de compriso 4","Grado de compriso 5"]},{"question":["Complextion"],"answer":["Columna","Campana","Triángulo invertido","Reloj de Arena","Otro"],"result":["Completxtion columna","Completxtion campana","Completxtion triangulo","Completxtion reloj de arena","Completxtion otro"]}]}}
 
 /***/ }
 /******/ ]);
