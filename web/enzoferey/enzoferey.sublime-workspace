@@ -907,16 +907,20 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
-		"last_filter": "",
+		"height": 625.0,
+		"last_filter": "lan",
 		"selected_items":
 		[
+			[
+				"lan",
+				"C:\\Users\\Enzo Ferey\\Desktop\\MyGithubPage\\landing-page.sublime-project"
+			],
 			[
 				"",
 				"/C/Users/Enzo Ferey/Desktop/TutorialReact/react-spa/react-spa.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{

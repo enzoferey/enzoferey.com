@@ -320,7 +320,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -394,8 +394,8 @@
 						"selection":
 						[
 							[
-								583,
-								583
+								186,
+								186
 							]
 						],
 						"settings":
@@ -407,7 +407,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -423,8 +423,8 @@
 						"selection":
 						[
 							[
-								597,
-								597
+								690,
+								653
 							]
 						],
 						"settings":
@@ -453,8 +453,8 @@
 						"selection":
 						[
 							[
-								0,
-								3400
+								3518,
+								3403
 							]
 						],
 						"settings":
@@ -466,7 +466,7 @@
 						"translation.y": 4052.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -585,12 +585,16 @@
 	"select_project":
 	{
 		"height": 625.0,
-		"last_filter": "",
+		"last_filter": "enzo",
 		"selected_items":
 		[
 			[
+				"enzo",
+				"C:\\Users\\Enzo Ferey\\Desktop\\MyGithubPage\\web\\enzoferey\\enzoferey.sublime-project"
+			],
+			[
 				"",
-				"C:\\Users\\Enzo Ferey\\Desktop\\SPA-Base\\spa-base.sublime-project"
+				"C:\\Users\\Enzo Ferey\\Desktop\\nerjafood\\nerjafood.sublime-project"
 			]
 		],
 		"width": 475.0
