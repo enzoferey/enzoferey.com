@@ -89,7 +89,7 @@
 			],
 			[
 				"6cd",
-				"6cdu	ES6 React componentDidUpdate"
+				"6cdu\tES6 React componentDidUpdate"
 			],
 			[
 				"next",
@@ -97,15 +97,15 @@
 			],
 			[
 				"6cw",
-				"6cwr	ES6 React componentWillReceiveProps"
+				"6cwr\tES6 React componentWillReceiveProps"
 			],
 			[
 				"rd",
-				"rdr	react-dom render"
+				"rdr\treact-dom render"
 			],
 			[
 				"6c",
-				"6cwu	React componentWillUnmount"
+				"6cwu\tReact componentWillUnmount"
 			],
 			[
 				"Reac",
@@ -113,7 +113,7 @@
 			],
 			[
 				"im",
-				"imrd	import react-dom"
+				"imrd\timport react-dom"
 			],
 			[
 				"pro",
@@ -185,7 +185,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Enzo Ferey/Desktop/MyGithubPage"
+		"/C/Users/User/Desktop/MyGithubPage"
 	],
 	"file_history":
 	[
@@ -308,8 +308,8 @@
 						"selection":
 						[
 							[
-								107,
-								107
+								740,
+								877
 							]
 						],
 						"settings":
@@ -337,8 +337,8 @@
 						"selection":
 						[
 							[
-								430,
-								430
+								1339,
+								1339
 							]
 						],
 						"settings":
@@ -347,7 +347,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -415,7 +415,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Enzo Ferey\\Desktop\\urbanfunfit\\urbanfunfit.sublime-project"
+				"C:\\Users\\User\\Desktop\\enzoferey\\enzoferey.sublime-project"
 			]
 		],
 		"width": 475.0

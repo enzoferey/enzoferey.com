@@ -4,31 +4,53 @@
 	<meta charset="UTF-8">
 	<title>Enzo Ferey</title>
 
-	<link rel="stylesheet" href="style.css">
-	<script src="https://use.fontawesome.com/43d8ac091c.js"></script>
-	
-	<meta name="viewport" content="width=decice-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-	<div id="container">
-		<div class="black-bar top"></div>
-		
-		<div id="content">
-			<div id="logo">Enzo Ferey</div>
+	<div id="announce-bar"></div>
+	<section id="header">
+		<div id="logo">
+			<p class="logo">Enzo Ferey</p>
+			<p class="sublogo">"Learning to be the developer you want to work with"</p>
+		</div>
+	</section>
+	<section id="social-media">
+		<a href="https://twitter.com/enzo_ferey"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href="https://github.com/enzoferey"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a href="https://medium.com/@enzoferey"><i class="fa fa-medium" aria-hidden="true"></i></a>
+	</section>
 
-			<div id="social-media">
-				<div id="twitter">
-					<a href="https://twitter.com/enzo_ferey"><i class="fa fa-twitter" aria-hidden="true"></i> enzo_ferey</a>
-				</div>
-				<div id="github">
-					<a href="https://github.com/enzoferey"><i class="fa fa-github" aria-hidden="true"></i> enzoferey</a>
+	<section id="love-react">
+		<p>Check my articles about React !</p>
+		<a href="https://medium.com/@enzoferey/how-i-fell-in-love-with-react-part-1-first-sight-love-7ce153153442#.pavl9sme1"><img src="love-react-small.png" alt="Logo of 'How I fell in love with React' articles"></a>
+	</section>
+	<section id="blog">
+		<h1>Blog</h1>
+			<div class="entry">
+				<div class="container">
+					<p class="title">New Website</p>
+					<p class="content">Welcome ! <br>After a long time being in doubt about starting my small blog, I finally decided to create a very simple personal website to replace the ugly
+					landing page I had before. Yet this is a very simple website and the blog entries will be too. Expect them to be like a diary (except for the everyday part) where I share things
+					about what I did that day. Tutorials, articles, videos or anything I discovered that day ! <br><br>I hope you will enjoy the format. <br> Have a nice day.</p>
+					<p class="date">Oct 2, 2016</p>
 				</div>
 			</div>
+			<!--<div class="entry">
+				<div class="container">
+					<p class="title">Node Diary #2</p>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur  sem erat, a fringilla nibh egestas a. Vestibulum ullamcorper lorem sit amet 
+		mattis condimentum. Nunc nec enim diam. Proin tempor bibendum scelerisque.  Maecenas eu interdum risus. Vestibulum ac ante volutpat urna 
+		placerat dictum a c sit amet enim. Duis tristique nisl id dignissim dictum. Vestibulum egestas eleifend volutpat. Nulla egestas a ipsum sed volutpat.
+		Morbi ut condimentum dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					<p class="date">Sep 29, 2016</p>
+				</div>
+			</div>-->
 		</div>
-
-		<div class="black-bar bottom">
-			<div id="powered">Proudly hosted by <a href="github.com"><img src="github-logo.png"></a></div>
-		</div>
+	</section>
+	<div id="footer-bar">
+		<div id="powered">Proudly hosted by <a href="github.com"><img src="github-logo.png"></a></div>
 	</div>
+	<script src="app.bundle.js"></script>
 </body>
 </html>
