@@ -21487,12 +21487,12 @@
 						_react2.default.createElement(
 							'div',
 							{ style: { width: '50%', float: 'left', position: 'relative', top: 15 + 'px', left: this.state.left + 'px' } },
-							'Follow on me on social medias to be aware of latest news !'
+							'Chapter 3: First Projects is published, check the blog !'
 						),
 						_react2.default.createElement(
 							'div',
 							{ style: { width: '50%', float: 'right', position: 'relative', top: 15 + 'px', left: this.state.right + 'px' } },
-							'Follow on me on social medias to be aware of latest news !'
+							'Follow me on social medias to be aware of the latest news !'
 						)
 					)
 				);
