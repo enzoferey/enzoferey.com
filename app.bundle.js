@@ -21487,7 +21487,7 @@
 						_react2.default.createElement(
 							'div',
 							{ style: { width: '50%', float: 'left', position: 'relative', top: 15 + 'px', left: this.state.left + 'px' } },
-							'"Chapter 3: First Projects" is published, check the blog !'
+							'"Chapter 4: Sharing Worldwide" is published, check the blog !'
 						),
 						_react2.default.createElement(
 							'div',
