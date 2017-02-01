@@ -1,0 +1,282 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MAIN CONTAINERS */
+body {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	font-size: 16px;
+	background-color: #333a46;
+}
+
+.menu, .cta, .blocks-container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+.jumbotron {
+	background-image: url("jumbotron-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 900px;
+	max-height: 900px;
+}
+
+.features {
+	background: #D8274D;
+	padding-top: 100px;
+}
+
+.features2 {
+	background: white;
+	padding: 66px 0;
+}
+
+.newsletter {
+	background: #D8274D;
+	padding: 60px 0 45px;
+	text-align: center;
+}
+
+.footer {
+	background: #333A46;
+	height: 105px;
+	line-height: 105px;
+}
+
+/* JUMBOTRON */
+.menu {
+	width: 100%;
+	height: 86px;
+	line-height: 86px;
+}
+
+.logo {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.menu-links {
+	color: white;
+	width: 55%;
+	float: right;
+}
+
+.menu-links li {
+	display: inline-block;
+	margin-right: 56px;
+}
+
+.cta {
+	color: white;
+	margin-left: 25%;
+	max-width: 450px;
+}
+
+.cta-primary-text {
+	font-size: 50px;
+	margin-top: 200px;
+	margin-bottom: 40px;
+}
+
+.cta-secondary-text {
+	font-size: 21px;
+}
+
+.cta-button {
+	width: 270px;
+	height: 58px;
+	border-radius: 50px;
+	background: #D8274D;
+	border: none;
+	color: white;
+	font-size: 21px;
+	font-weight: 600; /* semibold */
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: 90px; /* 450 total, 225 mitad => 270 total, 135 mitad => 225 - 135 = 90*/
+	text-align: left;
+	padding-left: 35px;
+}
+
+.cta-button-container {
+	position: relative;
+}
+
+.cta-button-container img {
+	position: absolute;
+	top: 125px;
+	left: 315px;
+}
+
+/* FEATURES */
+
+.blocks-container {
+	overflow: hidden;
+}
+
+.features-block {
+	width: 640px; /* 497 */
+	height: 114px;
+	float: left;
+	margin-bottom: 100px;
+	color: white;
+}
+
+.feature-block-content {
+	float: right;
+}
+
+.features-block-icon {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+.feature-block-description {
+	display: inline-block;
+}
+
+.features-block-tittle {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 14px;
+	max-width: 387px;
+}
+
+.features-block-text {
+	font-size: 16px;
+	max-width: 362px;
+}
+
+/* FEATURES 2 */
+
+.features2-block {
+	width: 640px;
+	height: 415px;
+	float: left;
+	text-align: center;
+}
+
+.features2-block:nth-child(1) {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border-right: 1px #95989A solid;
+}
+
+.features2-block-img {
+	position: relative;
+	top: 90px;
+}
+
+.features2-block-tittle {
+	font-size: 37px;
+	color: #333a46;
+}
+
+/* NEWSLETTER */
+
+.newsletter-tittle {
+	font-size: 37px;
+	color: white;
+	margin-bottom: 35px;
+}
+
+.newsletter-text {
+	font-size: 16px;
+	color: white;
+	margin-bottom: 45px;
+}
+
+.newsletter-input {
+	width: 445px;
+	height: 52px;
+	border: none;
+	font-size: 21px;
+	margin-right: 10px;
+	padding-left: 15px;
+}
+
+.newsletter-submit {
+	width: 142px;
+	height: 52px;
+	border-radius: 5px;
+	background: #333A46;
+	border: none; 
+	font-size: 21px;
+	color: white;
+}
+
+/* FOOTER */
+
+.footer .blocks-container > div {
+	width: 426px;
+	float: left;
+	font-size: 21px;
+	color: white;
+}
+
+.social-navigation {
+	text-align: left;
+}
+
+.hecho-con-amor {
+	text-align: center;
+}
+
+.copyright {
+	text-align: right;
+}
+
+.social-navigation ul li {
+	display: inline-block;
+	margin-right: 36px;
+}
