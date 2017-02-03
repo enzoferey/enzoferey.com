@@ -313,6 +313,10 @@ body {
 	.cta-primary-text {
 		margin-top: 100px;
 	}
+
+	.jumbotron {
+		margin-bottom: -200px;
+	}
 }
 
 @media only screen and (max-width: 701px) {
