@@ -102,7 +102,8 @@ body {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
-	padding-left: 20px;
+	margin-left: 10px;
+	max-width: 70%;
 }
 
 .menu-links {
@@ -116,9 +117,14 @@ body {
 	margin-right: 56px;
 }
 
+.menu-icon {
+	display: none;
+	margin-right: 10px;
+	max-width: 15%;
+}
+
 .cta {
 	color: white;
-	margin-left: 25%;
 	max-width: 450px;
 }
 
@@ -141,21 +147,22 @@ body {
 	color: white;
 	font-size: 21px;
 	font-weight: 600; /* semibold */
-	margin-top: 100px;
-	margin-bottom: 40px;
-	margin-left: 90px; /* 450 total, 225 mitad => 270 total, 135 mitad => 225 - 135 = 90*/
+	margin: 0 auto;
 	text-align: left;
 	padding-left: 35px;
+	display: block;
 }
 
 .cta-button-container {
 	position: relative;
+	margin-top: 100px;
+	margin-bottom: 40px;
 }
 
 .cta-button-container img {
 	position: absolute;
-	top: 125px;
-	left: 315px;
+	top: 25px;
+	left: 78%;
 }
 
 /* FEATURES */
@@ -206,6 +213,7 @@ body {
 }
 
 .features2-block-img {
+	margin: 0 auto;
 	position: relative;
 	top: 60px;
 }
@@ -280,6 +288,16 @@ body {
 
 /* HIBRIDOS */
 
+@media only screen and (max-width: 400px) {
+	.logo {
+		margin-left: 3%;
+	}
+
+	.menu-icon {
+		margin-right: 3%;
+	}
+}
+
 @media only screen and (max-width: 568px) {
 	.features-block {
 		height: 210px;
@@ -288,8 +306,12 @@ body {
 
 	.features-block-icon {
 		display: block;
-		margin-right: 0;
+		margin: 0 auto;
 		float: none;
+	}
+
+	.cta-primary-text {
+		margin-top: 100px;
 	}
 }
 
@@ -297,6 +319,38 @@ body {
 	/* FORMULARIO NEWSLETTER */
 	.newsletter-submit {
 		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 430px) {
+	/* FORMULARIO NEWSLETTER */
+	.cta-button-container img {
+		left: 70%;
+	}
+}
+
+@media only screen and (max-width: 1290px) {
+	/* FORMULARIO NEWSLETTER */
+	.menu-links {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 1185px) {
+	/* FORMULARIO NEWSLETTER */
+	.menu-links {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 1095px) {
+	/* FORMULARIO NEWSLETTER */
+	.menu-links {
+		display: none;
+	}
+
+	.menu-icon {
+		display: inline-block;
 	}
 }
 
@@ -355,7 +409,7 @@ body {
 	}
 
 	.logo {
-		padding-left: 0px;
+		margin-left: 0px;
 	}
 
 	.menu-links {
@@ -394,9 +448,6 @@ body {
 		color: white;
 		font-size: 21px;
 		font-weight: 600; /* semibold */
-		margin-top: 100px;
-		margin-bottom: 40px;
-		margin-left: 90px; /* 450 total, 225 mitad => 270 total, 135 mitad => 225 - 135 = 90*/
 		text-align: left;
 		padding-left: 35px;
 	}
@@ -407,8 +458,8 @@ body {
 
 	.cta-button-container img {
 		position: absolute;
-		top: 125px;
-		left: 315px;
+		top: 25px;
+		left: 70%;
 	}
 
 	/* FEATURES */
