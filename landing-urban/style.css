@@ -58,7 +58,6 @@ body {
 	margin: 0 auto;
 }
 
-
 .jumbotron {
 	background-image: url("jumbotron-bg.jpg");
 	background-repeat: no-repeat;
@@ -362,112 +361,28 @@ body {
 
 @media only screen and (min-width: 1423px) {
     /* MAIN CONTAINERS */
-	body {
-		font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
-		font-size: 16px;
-		background-color: #333a46;
-	}
-
 	.menu, .cta, .blocks-container {
 		max-width: 1280px;
-		margin: 0 auto;
 	}
 
-
-	.jumbotron {
-		background-image: url("jumbotron-bg.jpg");
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-size: cover;
-		height: 900px;
-		max-height: 900px;
-	}
-
-	.features {
-		background: #D8274D;
-		padding-top: 100px;
-	}
-
-	.features2 {
-		background: white;
-		padding: 66px 0;
-	}
-
-	.newsletter {
-		background: #D8274D;
-		padding: 60px 0 45px;
-		text-align: center;
-	}
-
-	.footer {
-		background: #333A46;
-		height: 105px;
-		line-height: 105px;
-	}
 
 	/* JUMBOTRON */
-	.menu {
-		width: 100%;
-		height: 86px;
-		line-height: 86px;
-	}
-
 	.logo {
 		margin-left: 0px;
 	}
 
-	.menu-links {
-		color: white;
-		width: 55%;
-		float: right;
-	}
-
-	.menu-links li {
-		display: inline-block;
-		margin-right: 56px;
-	}
-
 	.cta {
-		color: white;
 		margin-left: 25%;
 		max-width: 450px;
 	}
 
-	.cta-primary-text {
-		font-size: 50px;
-		margin-top: 200px;
-		margin-bottom: 40px;
-	}
-
-	.cta-secondary-text {
-		font-size: 21px;
-	}
-
-	.cta-button {
-		width: 270px;
-		height: 58px;
-		border-radius: 50px;
-		background: #D8274D;
-		border: none;
-		color: white;
-		font-size: 21px;
-		font-weight: 600; /* semibold */
-		text-align: left;
-		padding-left: 35px;
-	}
-
-	.cta-button-container {
-		position: relative;
-	}
-
 	.cta-button-container img {
-		position: absolute;
-		top: 25px;
 		left: 70%;
 	}
 
-	/* FEATURES */
 
+
+	/* FEATURES */
 	.features-block {
 		width: 640px; /* 497 */
 		height: 114px;
@@ -484,8 +399,9 @@ body {
 		float: right;
 	}
 
-	/* FEATURES 2 */
 
+
+	/* FEATURES 2 */
 	.features2-block {
 		width: 640px;
 		height: 415px;
@@ -509,41 +425,11 @@ body {
 		margin-top: 0;
 	}
 
+
 	/* NEWSLETTER */
 
-	.newsletter-tittle {
-		font-size: 37px;
-		color: white;
-		margin-bottom: 35px;
-	}
-
-	.newsletter-text {
-		font-size: 16px;
-		color: white;
-		margin-bottom: 45px;
-	}
-
-	.newsletter-input {
-		width: 445px;
-		height: 52px;
-		border: none;
-		font-size: 21px;
-		margin-right: 10px;
-		padding-left: 15px;
-	}
-
-	.newsletter-submit {
-		width: 142px;
-		height: 52px;
-		border-radius: 5px;
-		background: #333A46;
-		border: none; 
-		font-size: 21px;
-		color: white;
-	}
 
 	/* FOOTER */
-
 	.footer .blocks-container > div {
 		width: 426px;
 	}
