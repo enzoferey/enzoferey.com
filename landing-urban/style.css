@@ -45,12 +45,63 @@ table {
 
 
 /* MOBILE */
+.stop-scrolling {
+	position: fixed;
+	overflow: hidden;
+}
 
 /* MAIN CONTAINERS */
 body {
 	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
 	font-size: 16px;
 	background-color: #333a46;
+}
+
+.content {
+	width: 100%;
+	transition: margin-left .5s;
+}
+
+/* The side navigation menu */
+.side-menu {
+    height: 100%;
+    width: 250px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 100%;
+    background-color: #D8274D;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+/* The navigation menu links */
+.side-menu a {
+	width: 100%;
+    padding: 8px 10px 16px 32px;
+    font-size: 16px;
+    color: white;
+    display: block;
+    
+    text-decoration: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+.side-menu a:hover{
+    color: black;
+    border-left: 4px black solid;
+    padding-left: 28px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .menu, .cta, .blocks-container {
