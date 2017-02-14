@@ -359,22 +359,29 @@ body {
 	margin-bottom: 28px;
 }
 
-.steps li p {
+.steps-text {
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.steps-text span {
 	font-size: 21px;
 	line-height: 21px;
 	color: #95989A;
-	position: relative;
-	top: -10px;
-	max-width: 80%;
 	text-align: center;
-	margin: 0 auto;
+
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
 
 
 .services {
 	width: 80%;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 30px;
 	overflow: hidden;
 }
 
@@ -412,16 +419,24 @@ body {
 	.number {
 		display: inline-block;
 		margin: 0 34px 0 0;
+		float: left;
 	}
 
 	.steps li {
 		height: 100px;
 	}
 
-	.steps li p {
+	.steps li span {
 		display: inline-block;
 		text-align: left;
 		margin: 0;
+
+		vertical-align: middle;
+		line-height: normal;
+	}
+
+	.steps-text {
+		float: left;
 	}
 
 	.subtitle {
@@ -443,6 +458,10 @@ body {
 
 	.services li:nth-child(n+5) {
 		margin-bottom: 100px;
+	}
+
+	.services {
+		padding-top: 70px;
 	}
 }
 
@@ -471,7 +490,7 @@ body {
 
 /* PC */ 
 
-@media only screen and (min-width: 1423px) {
+@media only screen and (min-width: 1440px) {
     /* MAIN CONTAINERS */
 	.menu, .blocks-container {
 		max-width: 1280px;

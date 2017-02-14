@@ -141,7 +141,7 @@ body {
 }
 
 .jumbotron {
-	background-image: url("jumbotron-bg.jpg");
+	background-image: url("jumbotron-bg-2.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -466,7 +466,7 @@ body {
 
 /* PC */ 
 
-@media only screen and (min-width: 1423px) {
+@media only screen and (min-width: 1440px) {
     /* MAIN CONTAINERS */
 	.menu, .cta, .blocks-container {
 		max-width: 1280px;
