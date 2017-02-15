@@ -52,7 +52,6 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 
 /* MAIN CONTAINERS */
 body {
-	/*font-family: NotoSans;*/
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
 	background-color: #333a46;
@@ -633,11 +632,3 @@ body {
 		margin-left: 0px;
 	}
 }
-
-
-@font-face {
-	font-family: NotoSans;
-	src: url(weblysleekuisb.ttf);
-}
-
-
