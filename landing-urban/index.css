@@ -52,7 +52,8 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 
 /* MAIN CONTAINERS */
 body {
-	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	/*font-family: NotoSans;*/
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
 	background-color: #333a46;
 }
@@ -223,6 +224,8 @@ body {
 	display: none;
 	margin-right: 3%;
 	max-width: 15%;
+	margin-top: 20px;
+	float: right;
 }
 
 .cta {
@@ -241,7 +244,7 @@ body {
 }
 
 .cta-button {
-	width: 270px;
+	width: 250px; /* 270 */
 	height: 58px;
 	line-height: 58px;
 	border-radius: 10px;
@@ -251,10 +254,16 @@ body {
 	font-size: 21px;
 	font-weight: 600; /* semibold */
 	margin: 0 auto;
-	text-align: left;
-	padding-left: 35px;
+	text-align: center; /* left */
+	/*padding-left: 35px;*/
 	display: block;
 	position: relative;
+	transition: background 0.2s;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.cta-button:hover {
+	background: #BA0D30;
 }
 
 .cta-button-container {
@@ -285,8 +294,8 @@ body {
 .slogan {
 	font-size: 37px;
 	font-weight: 200;
-	max-width: 400px;
-	margin: 0 auto 40px;
+	/*max-width: 400px;*/
+	margin: 30px auto 70px;
 	line-height: 50px;
 }
 
@@ -380,6 +389,11 @@ body {
 	border: none; 
 	font-size: 21px;
 	color: white;
+	transition: background 0.2s;
+}
+
+.newsletter-submit:hover {
+	background: #60646B;
 }
 
 /* FOOTER */
@@ -410,6 +424,76 @@ body {
 	margin-left: 18px;
 }
 
+/* 2.0 */
+
+.cta-entrenadores {
+	width: 100%;
+	text-align: center;
+}
+
+.cta-entrenadores-title {
+	font-size: 37px;
+	color: #333a46;
+	
+}
+
+.cta-entrenadores-subtitle {
+	font-size: 21px;
+	color: #95989A;
+	margin-top: 25px;
+}
+
+.cta-entrenadores button {
+	border: 3px #333A46 solid;
+	background: none;
+	width: 270px;
+	height: 58px;
+	font-size: 21px;
+	border-radius: 10px;
+	color: #333A46;
+	margin-top: 40px;
+	transition: background-color 0.2s;
+	text-transform: uppercase;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.cta-entrenadores button:hover {
+	border: none;
+	background-color: #333A46;
+	color: white;
+}
+
+.cta-entrenar-2 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cta-entrenar-2-text {
+	font-size: 28px;
+	color: white;
+	
+}
+
+.cta-entrenar-2 button {
+	border: 3px white solid;
+	background: none;
+	width: 270px;
+	height: 58px;
+	font-size: 21px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	transition: background-color 0.2s;
+	text-transform: uppercase;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.cta-entrenar-2 button:hover {
+	border: none;
+	background-color: #333A46;
+}
 
 /* HIBRIDOS */
 
@@ -551,6 +635,9 @@ body {
 }
 
 
-
+@font-face {
+	font-family: NotoSans;
+	src: url(weblysleekuisb.ttf);
+}
 
 
