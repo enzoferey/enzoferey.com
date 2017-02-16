@@ -547,6 +547,29 @@ body {
 	}
 }
 
+@media only screen and (min-width: 1200px) {
+
+	/* FEATURES */
+	.features-block {
+		width: 640px;
+		max-width: 50%; /* 497 */
+		height: 114px;
+		float: left;
+		display: initial;
+	}
+
+	.feature-block-content {
+		margin: 0;
+		width: auto;
+	}
+
+	.feature-block-content.right {
+		float: right;
+	}
+}
+
+
+
 /* PC */ 
 
 @media only screen and (min-width: 1440px) {
@@ -565,25 +588,6 @@ body {
 		margin-left: 25%;
 		max-width: 450px;
 	}
-
-	
-	/* FEATURES */
-	.features-block {
-		width: 640px; /* 497 */
-		height: 114px;
-		float: left;
-		display: initial;
-	}
-
-	.feature-block-content {
-		margin: 0;
-		width: auto;
-	}
-
-	.feature-block-content.right {
-		float: right;
-	}
-
 
 
 	/* FEATURES 2 */
