@@ -1,123 +1,184 @@
 html, body {
-	background: white;
 	margin: 0;
-	height: 100%;
+	padding: 0;
 }
 
-a {
-	text-decoration: none;
-	color: #222;
-}
-
-#container {
-	height: 100%;
-	font-family: PoiretOne;
-	color: #222222;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.black-bar {
+#announce-bar {
 	width: 100%;
-	height: 60px;
+	height: 45px;
 	background: #222222;
+	overflow: hidden;
 }
 
-.top {
-	align-self: flex-start;
+.announces-container {
+	width: 200%;
+	min-width: 1100px;
 }
 
-.bottom {
-	align-self: flex-end;
+.announce {
+	float: left;
+	width: 50%;
+	height: 45px;
+	text-align: center;
+	animation: slideshow 30s linear infinite;
+  	transform: translate3d(0, 0, 0);
+
+  	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 45px;
 }
 
-#content {
-	width: 100%;
+@keyframes slideshow {
+  0% {
+    -webkit-transform: translateX(75%);
+  }
+  100% { 
+    -webkit-transform: translateX(-175%);  
+  }
 }
 
 #logo {
-	font-size: 120px;
-	text-transform: uppercase;
+	position: relative;
+	top: 45px;
+	padding-bottom: 45px;
 	text-align: center;
-	padding-bottom: 80px;
+}
+
+.logo {
+	font-size: 60px;
+	font-family: PoiretOne;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.sublogo {
+	width: 80%;
+	margin: 0 auto;
+	color: #666666;
+	font-size: 18px;
+	font-family: Lato;
+	font-style: italic;
+	padding-bottom: 40px;
+}
+
+section {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	max-width: 1024px;
 }
 
 #social-media {
 	text-align: center;
-	font-size: 50px;
+	font-size: 60px;
 }
 
-#social-media div {
-	float: left;
+#social-media ul {
+	list-style: none;
+	height: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
 }
 
-#twitter {
-	width: 50%;
+#social-media li {
+	height: 100%;
+	width: 80px;
+	display: inline-block;
+}
+
+#social-media a {
+	margin: 15px;
+	color: #222;
+	text-decoration: none;
+}
+
+#love-react {
+	margin-top: 30px;
+	font-family: Montserrat;
+	color: #222;
+	text-align: center;
+	font-weight: bold;
+}
+
+#love-react img {
+	margin-top: -10px;
+	max-width: 100%;
+	padding-bottom: 35px;
+}
+
+#blog {
+	width: 100%;
+	padding-bottom: 40px;
+	border-bottom: 0;
+}
+
+#blog h1 {
+	margin: 30px 0;
+	font-family: Montserrat;
+	font-size: 40px;
+	color: #222;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.entry {
+	color: #222;
+	padding: 20px 0;
+}
+
+.entry:nth-child(even) {
+	background: #eee;
+}
+
+.entry a {
+	color: #222;
+	font-weight: bold;
+}
+
+.entry .container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.entry .title {
+	font-family: Montserrat;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.entry .content {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.58;
+	letter-spacing: -.003em;
+}
+
+.entry .date {
+	font-family: Montserrat;
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+}
+
+#footer-bar {
+	background: #222;
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 16px;
+	width: 100%;
+	height: 45px;
 	text-align: right;
 }
 
-#twitter a {
-	position: relative;
-	right: 50px;
-}
-
-#twitter a:hover {
-	color: #1da1f2;
-}
-
-#github {
-	width: 50%;
-	text-align: left;
-}
-
-#github a {
-	position: relative;
-	left: 50px;
-}
-
-#github a:hover {
-	color: #800080;
-}
-
-.fa.fa-twitter, .fa.fa-github {
-	font-size: 70px;
-	vertical-align: middle;
-}
-
-@media (max-width: 768px) {
-	#logo {
-		font-size: 60px;
-		padding-top: 80px;
-	}
-
-	#social-media {
-		font-size: 30px;
-	}
-
-	#twitter,#github {
-		width: 100%;
-		text-align: center;
-		margin-top: 20px;
-	}
-
-	#twitter a, #github a {
-		position: initial;
-	}
-
-	.fa.fa-twitter, .fa.fa-github {
-		font-size: 50px;
-	}
-}
-
 #powered {
-	float: right;
-	line-height: 60px;
-	color: white;
+	line-height: 45px;
 	position: relative;
-	right: 20px;
+	right: 10px;
 }
 
 #powered img {
@@ -127,7 +188,18 @@ a {
 	top: 3px;
 }
 
+/*************** FONTS **************/
 @font-face {
 	font-family: PoiretOne; 
-	src: url('mobile/PoiretOne-Regular.ttf');
+	src: url(3b585e0e2f91bef9ab6ea74f7e302f20.ttf);
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(27e50ffd6a14cbc8221c9dbd3b5208dc.otf);
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(3b9b99039cc0a98dd50c3cbfac57ccb2.ttf);
 }
