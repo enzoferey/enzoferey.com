@@ -67,69 +67,6 @@ section {
 	fill: #444;
 }
 
-#about-me {
-	padding: 30px 0;
-}
-
-#about-me img {
-	width: 300px;
-	height: 300px;
-}
-
-.center {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 690px;
-    margin: 0 auto;
-}
-
-.center > * {
-	padding: 0 15px;
-}
-
-#description {
-    height: 300px;
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#description p {
-	font-family: Montserrat;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-    align-self: center;
-}
-
-
-#email {
-	margin-top: 30px;
-	text-align: center;
-}
-
-#email svg {
-	vertical-align: middle;
-}
-
-#email p {
-	display: inline-block;
-	margin: 0;
-	margin-left: 10px;
-	vertical-align: middle;
-	font-weight: normal;
-}
-
-
-
-
-
-
-
-
-
 #love-react {
 	margin-top: 30px;
 	font-family: Montserrat;
