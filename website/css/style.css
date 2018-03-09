@@ -122,57 +122,40 @@ section {
 	font-weight: normal;
 }
 
-
-
-
-
-
-
-
-
-#love-react {
-	margin-top: 30px;
-	font-family: Montserrat;
-	color: #222;
-	text-align: center;
-	font-weight: bold;
-}
-
-#love-react img {
-	margin-top: -10px;
-	max-width: 100%;
-	padding-bottom: 35px;
-}
-
-#projects {
+#portfolio {
 	padding-bottom: 50px;
 	text-align: center;
 }
 
-#projects a{
+.portfolio-element {
 	display: inline-block;
     width: 200px;
-    height: 80px;
+    height: 100px;
     padding: 0 30px;
     margin: 20px 20px 0;
     position: relative;
-    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
-#projects #showdown-stats {
-	background-color: #272727;
-}
-
-#projects #vgc-ladder {
-	background-color: #D50000;
-}
-
-#projects img {
-	position: absolute;
-	top: 0;
-	bottom: 0;
+.portfolio-element img {
 	width: 200px;
-	margin: auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-element p {
+	width: 200px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-size: 17px;
+    color: white;
+    margin: 0;
 }
 
 #blog {
