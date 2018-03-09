@@ -69,132 +69,95 @@
 	</section>
 	<section id="portfolio">
 		<h1>Portfolio</h1>
-		<div id="botxo" class="portfolio-element" style="background-color: #f7f7f7;">
+		<div id="botxo" class="portfolio-element" style="background-color: #f7f7f7;" onclick="hideOtherElements(0)">
 			<img src="website/img/botxo.png" alt="Logo Botxo" style="width: 140px">
 		</div>
-		<div id="exce" class="portfolio-element" style="background-color: #f7f7f7;">
+		<div id="exce" class="portfolio-element" style="background-color: #f7f7f7;" onclick="hideOtherElements(1)">
 			<img src="website/img/exce.png" alt="Logo Exce Consulting Group" style="width: 150px; top: calc(50% - 4px)">
 		</div>
-		<div id="incyde" class="portfolio-element" style="background-color: #f7f7f7;">
+		<div id="incyde" class="portfolio-element" style="background-color: #f7f7f7;" onclick="hideOtherElements(2)">
 			<img src="website/img/incyde.png" alt="Logo Fundación INCYDE">
 		</div>
-		<div id="websail" class="portfolio-element" style="background-color: #235599;">
+		<div id="logo-week" class="portfolio-element" style="background-color: #00CA81;" onclick="hideOtherElements(3)">
+			<p style="font-size: 28px">1 Logo Week</p>
+		</div>
+		<div id="talentum" class="portfolio-element" style="background-color: #002e3b;" onclick="hideOtherElements(4)">
+			<img src="website/img/talentum.png" alt="Logo Talentum (Telefónica)">
+		</div>
+		<div id="websail" class="portfolio-element" style="background-color: #235599;" onclick="hideOtherElements(5)">
 			<img src="website/img/websail.png" alt="Logo Websail" style="width: 90px">
 		</div>
-		<div id="ephoto" class="portfolio-element" style="background-color: #f7f7f7;">
+		<div id="ephoto" class="portfolio-element" style="background-color: #f7f7f7;" onclick="hideOtherElements(6)">
 			<img src="website/img/ephoto.gif" alt="Logo e-Photo PRO">
 		</div>
-		<div id="picbooth" class="portfolio-element" style="background-color: #000000;">
+		<div id="picbooth" class="portfolio-element" style="background-color: #000000;" onclick="hideOtherElements(7)">
 			<img src="website/img/picbooth.gif" alt="Logo Picbooth">
 		</div>
-		<div id="showdown-stats" class="portfolio-element" style="background-color: #272727;">
+		<div id="showdown-stats" class="portfolio-element" style="background-color: #272727;" onclick="hideOtherElements(8)">
 			<img src="website/img/showdown-stats.png" alt="Logo Showdown Stats">
 		</div>
-		<div id="vgc-ladder" class="portfolio-element" style="background-color: #D50000;">
+		<div id="vgc-ladder" class="portfolio-element" style="background-color: #D50000;" onclick="hideOtherElements(9)">
 			<img src="website/img/vgc-ladder.png" alt="Logo VGC Ladder">
 		</div>
-		<div id="react-rating-system" class="portfolio-element" style="background-color: #24292e;">
+		<div id="react-rating-system" class="portfolio-element" style="background-color: #24292e;" onclick="hideOtherElements(10)">
 			<p>react-rating-system</p>
 		</div>
-		<div id="react-swipe-navigation" class="portfolio-element" style="background-color: #24292e;">
+		<div id="react-swipe-navigation" class="portfolio-element" style="background-color: #24292e;" onclick="hideOtherElements(11)">
 			<p>react-swipe-navigation</p>
 		</div>
-		<div id="react-love" class="portfolio-element" style="background-color: #222222;">
+		<div id="react-love" class="portfolio-element" style="background-color: #222222;" onclick="hideOtherElements(12)">
 			<img src="website/img/react-love.png" alt="Logo How I fell in love with React" style="width: 100px">
 		</div>
-		<div id="mr-melon" class="portfolio-element" style="background-color: #26b19b;">
+		<div id="mr-melon" class="portfolio-element" style="background-color: #26b19b;" onclick="hideOtherElements(13)">
 			<img src="website/img/mr-melon.png" alt="Logo Mr Melon Games" style="width: 85px">
 		</div>
-		<div id="ricon-natural" class="portfolio-element" style="background-color: #0a6232;">
+		<div id="ricon-natural" class="portfolio-element" style="background-color: #0a6232;" onclick="hideOtherElements(14)">
 			<img src="website/img/rincon-natural.gif" alt="Logo Rincón Natural" style="width: 150px">
 		</div>
-		<div id="spain-vgc" class="portfolio-element" style="background-color: #E3DFD7;">
+		<div id="spain-vgc" class="portfolio-element" style="background-color: #E3DFD7;" onclick="hideOtherElements(15)">
 			<img src="website/img/spainvgc.png" alt="Logo Spain VGC" style="top: calc(50% + 5px)">
 		</div>
-	</section>
-	<!--<section id="blog">
-		<h1>Blog</h1>
-			<div class="entry">
-					<div class="container">
-						<p class="title">Chapter 5: Miscellaneous</p>
-						<p class="content">Dear diary, <br><br>Today I published Chapter 5 of my series "How I fell in love with React". It has however no main focus, I decided
-						to talk about 3 different things/problems I came across in the last 10 days of my first month using React. In particular, ES6, fonts and a new open source
-						React component.
-						<br>
-						<a href="https://medium.com/@enzoferey/how-i-fell-in-love-with-react-part-5-miscellaneous-104f735c7fbe" target="_blank">
-							You can check it on Medium clicking this.
-						</a>
-						<br><br>Hope you are doing great, let's start the week !</p>
-						<p class="date">Oct 17, 2016</p>
-					</div>
-			</div>
-			<div class="entry">
-					<div class="container">
-						<p class="title">LearnGraphQL</p>
-						<p class="content">Dear diary, <br><br>Today I discovered a couple of days ago <a href="https://learngraphql.com/" target="_blank">LearnGraphQL</a> course by 
-						<a href="https://twitter.com/arunoda" target="_blank">@arunoda</a>, and sinceresly, it's awesome. <br>I had any experience with 
-						<a href="http://graphql.org/" target="_blank">GraphQL</a> and after following it I managed to build my small API on a 
-						<a href="https://www.mongodb.com/" target="_blank">MongoDB</a> database.<br>
-						The only downfall about it is that it later uses <a href="https://github.com/gordonmleigh/promised-mongo" target="_blank">promised-mongo</a> to interact
-						with MongoDB API and the steps they provide don't work (at least in my case). So I had to search somewhere else and I ended up using 
-						<a href="http://mongoosejs.com/" target="_blank">Mongoose</a>. <br>Except from that everything is very well explained and this small problem is just related
-						with how you fetch data in your program, not GraphQL itself.
-						<br><br>Week is ending and I'm hungry to learn more!</p>
-						<p class="date">Oct 13, 2016</p>
-					</div>
-			</div>
-			<div class="entry">
-					<div class="container">
-						<p class="title">Chapter 4: Sharing Worldwide</p>
-						<p class="content">Dear diary, <br><br>Today I published Chapter 4 of my series "How I fell in love with React". It is about the
-						first my first real React component which was also the first time I was sharing something through npm. You can find inside it 
-						all the steps I followed plus some recommendations about sharing React Components.<br>
-						<a href="https://medium.com/@enzoferey/how-i-fell-in-love-with-react-part-4-sharing-worldwide-7b0d0e207363" target="_blank">
-							You can check it on Medium clicking this.
-						</a>
-						<br><br>Enjoy the week and keep React-ing !</p>
-						<p class="date">Oct 10, 2016</p>
-					</div>
-			</div>
-			<div class="entry">
-					<div class="container">
-						<p class="title">Server vs Client Rendering</p>
-						<p class="content">Dear diary, <br><br>Today I have finally understood the pros and cons of server and client rendering thanks to
-						<a href="https://www.quora.com/What-are-the-tradeoffs-of-client-side-rendering-vs-server-side-rendering" target="_blank">
-							this article.
-						</a>
-						<br>It's a little bit updated but the first paragraphs are still true and very useful. I am going to try some server rendering for 
-						this website very soon, I will let you know they results and how I did it ! ;) 
-						<br><br> Have a nice day.</p>
-						<p class="date">Oct 8, 2016</p>
-					</div>
-			</div>
-			<div class="entry">
-					<div class="container">
-						<p class="title">Chapter 3: First Projects</p>
-						<p class="content">Dear diary, <br><br>Today I published Chapter 3 of my "How I fell in love with React" series. It is about the
-						first projects and tutorials I followed when I started learning React and how I managed to build everything with Webpack to publish it on a
-						website. 
-						<a href="https://medium.com/@enzoferey/how-i-fell-in-love-with-react-part-3-first-projects-12d20ed77c77#.4sv2631r7" target="_blank">
-							You can check it on Medium clicking this
-						</a>. 
-						<br><br> Have a nice day.</p>
-						<p class="date">Oct 3, 2016</p>
-					</div>
-			</div>
-			<div class="entry">
-				<div class="container">
-					<p class="title">New Website</p>
-					<p class="content">Dear diary, <br><br>Today, after a long time being in doubt about starting my small blog, I finally decided to create a very simple personal website to replace the ugly
-					landing page I had before. Yet this is a very simple website and the blog entries will be too. Expect them to be like a diary (except for the everyday part) where I share things
-					about what I did that day. Tutorials, articles, videos or anything I discovered that day ! <br><br>I hope you will enjoy the format. <br> Have a nice day.</p>
-					<p class="date">Oct 2, 2016</p>
+		<div class="portfolio-description">
+			<div class="container">
+				<p class="title"></p>
+				<p class="content"></p>
+				<div class="back" onclick="showAllElements()">
+					<svg fill="#222" width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+						<path d="M256,504C119,504,8,393,8,256S119,8,256,8,504,119,504,256,393,504,256,504ZM142.1,273,277.6,408.5a23.9,23.9,0,0,0,33.9,0l17-17a23.9,23.9,0,0,0,0-33.9L226.9,256,328.5,154.4a23.9,23.9,0,0,0,0-33.9l-17-17a23.9,23.9,0,0,0-33.9,0L142.1,239A24,24,0,0,0,142.1,273Z" transform="translate(-8 -8)"/>
+					</svg>
+					<p>Back</p>
 				</div>
 			</div>
 		</div>
-	</section>-->
+	</section>
 	<div id="footer-bar">
 		<div id="powered">Proudly hosted by <a href="https://www.github.com" target="_blank"><img src="website/img/github.png"></a></div>
 	</div>
+
+	<script src="website/js/data-portfolio.js"></script>
+	<script>
+		function hideOtherElements(index) {
+			var elements = document.getElementsByClassName('portfolio-element');
+			for(var i = 0; i < elements.length; i++) {
+				if(i !== index)
+					elements[i].style.display = 'none';
+			}
+
+			var description = document.getElementsByClassName('portfolio-description')[0];
+			description.getElementsByClassName('title')[0].innerHTML = descriptions[index].title;
+			description.getElementsByClassName('content')[0].innerHTML = descriptions[index].content;
+			description.style.display = 'inherit';
+		}
+
+		function showAllElements() {
+			var elements = document.getElementsByClassName('portfolio-element');
+			for(var i = 0; i < elements.length; i++) {
+				elements[i].style.display = 'inline-block';
+			}
+
+			var description = document.getElementsByClassName('portfolio-description')[0];
+			description.style.display = 'none';
+		}
+	</script>
 </body>
 </html>
