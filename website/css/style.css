@@ -234,15 +234,15 @@ h1 {
 /*************** FONTS **************/
 @font-face {
 	font-family: PoiretOne; 
-	src: url(3b585e0e2f91bef9ab6ea74f7e302f20.ttf);
+	src: url('../fonts/PoiretOne.ttf');
 }
 
 @font-face {
 	font-family: Montserrat;
-	src: url(27e50ffd6a14cbc8221c9dbd3b5208dc.otf);
+	src: url('../fonts/Montserrat.otf');
 }
 
 @font-face {
 	font-family: Lato;
-	src: url(3b9b99039cc0a98dd50c3cbfac57ccb2.ttf);
+	src: url('../fonts/Lato.ttf');
 }
