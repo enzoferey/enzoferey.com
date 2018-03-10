@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
 				"flex",
 				"flex-direction"
 			],
@@ -14,10 +30,6 @@
 			[
 				"search",
 				"search-input"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"max-",
@@ -127,16 +139,26 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5495,
+				"buffer_size": 9043,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "website/js/data-portfolio.js",
 			"settings":
 			{
-				"buffer_size": 1586,
+				"buffer_size": 11907,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "website/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3737,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -186,10 +208,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/User/Desktop/MyGithubPage"
+		"/D/WorkSpace/MyGithubPage",
+		"/D/WorkSpace/MyGithubPage/old-template",
+		"/D/WorkSpace/MyGithubPage/website",
+		"/D/WorkSpace/MyGithubPage/website/favicon"
 	],
 	"file_history":
 	[
+		"/D/WorkSpace/MyGithubPage/old-template/index.html",
+		"/D/WorkSpace/MyGithubPage/website/favicon/browserconfig.xml",
+		"/D/WorkSpace/MyGithubPage/CNAME",
+		"/D/WorkSpace/MyGithubPage/style.css",
 		"/C/Users/Enzo Ferey/Desktop/MyGithubPage/index.html",
 		"/C/Users/Enzo Ferey/Desktop/MyGithubPage/style.css",
 		"/C/Users/Enzo Ferey/Desktop/enzoferey/style.css",
@@ -247,7 +276,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -261,6 +290,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Pokémon",
+			"already",
+			"articles",
+			"#fffffff",
+			"png",
+			"app.",
 			"jani",
 			"search-icon",
 			"column",
@@ -283,6 +318,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Pokemon"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -302,44 +338,73 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5495,
+						"buffer_size": 9043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1613,
-								1613
+								8089,
+								8089
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 2016.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "style.css",
+					"file": "website/js/data-portfolio.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1586,
+						"buffer_size": 11907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								108,
-								292
+								2080,
+								2080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 11594.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "website/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2702,
+								2702
 							]
 						],
 						"settings":
@@ -348,10 +413,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -396,7 +461,7 @@
 	"project": "landing-page.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 73.0
 	},
 	"save_all_on_build": true,
 	"select_file":
