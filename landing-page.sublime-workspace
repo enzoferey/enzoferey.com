@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"photography"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -148,7 +152,7 @@
 			"file": "website/js/data-portfolio.js",
 			"settings":
 			{
-				"buffer_size": 11907,
+				"buffer_size": 15682,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -345,8 +349,8 @@
 						"selection":
 						[
 							[
-								8089,
-								8089
+								4591,
+								4591
 							]
 						],
 						"settings":
@@ -356,10 +360,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2016.0,
+						"translation.y": 1152.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -368,23 +372,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11907,
+						"buffer_size": 15682,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2080,
-								2080
+								521,
+								521
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 11594.0,
-						"translation.y": 288.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -416,7 +421,7 @@
 						"translation.y": 3312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -481,7 +486,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\User\\Desktop\\react-rating-system\\react-rating-system.sublime-project"
+				"D:\\Documentos Escritos\\Universidad\\7º Cuatrimestre\\Reconocimiento de formas\\Github\\Practica 2\\reconocimiento.sublime-project"
 			]
 		],
 		"width": 475.0

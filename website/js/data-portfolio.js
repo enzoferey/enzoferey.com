@@ -25,17 +25,17 @@ var talentum = {
 
 var websail = {
 	title: 'Websail',
-	content: '-Soon-'
-};
-
-var ephoto = {
-	title: 'e-PhotoPRO',
-	content: '-Soon-'
+	content: 'This project was my <b>first job in a stranger country </b>. One day I got a message from the CEO of a German <a href="https://web-sail.com/" target="_blank">company</a>, they were hiring a <b>frontend developer</b> at their new-brand-5-month <b>startup</b>. In the past I didn\'t have good experiences working with this kind of early stage company because of the inexperience of the people running it, but after doing a skype interview for 1 hour (why not, <b>I\'m curious about what people are building</b>) I felt something was different about this guy and I really like the idea behind their business. They wanted to build reusable <b>pieces of lego</b> to build CRMs adapted to each of their costumers. The would first focus on <b>sailing schools</b>, which I didn\'t know but it has a totally underdeveloped IT market, and later move those lego pieces to other markets.<br><br><b>One week later I was in Germany for a 10-day trial</b>. It ended up being not that great as I was told...<br><br>When I arrived the main goal of the company at that moment was to <b>rebuild from scratch a version</b> they had done 6 months ago with <b>Handlebars.js</b>. The backend was mostly reusable, but <b>the frontend was a total mess of spaghetti code</b> and iframes everywhere in order to reuse tables and other elements. <b>They told me that even the design should be changed</b>.<br><br>As I was in charge of the new frontend with <b>React</b> the first thing I did was to <b>understand the problem they wanted to solve</b> and I used the actual program to test the UX. <b>I wrote down all the flaws</b> I found and proceeded to do <b>mockups of the design</b>. Once I got their okay about my <b>MVP-like design</b>, I started to code using <b>react-toolbox</b> as a way to bootstrap <b>Material Design</b>.<br><br><b>At the end of the 10 days I had completely redesigned all their product and built a whole reusable frontend.</b><br><br>Although they offered me the job I didn\'t feel like it was worth to move to Germany for a job like that, but I really enjoyed such an intensive work period doing the thing I love the most.'
 };
 
 var picbooth = {
 	title: 'Picbooth',
-	content: '-Soon-'
+	content: 'This project is my <b>shortest development to the date</b>. Shortly after doing e-PhotoPRO website the same company asked me to create a new website based on the template I created.<br><br>The <a href="http://picbooth.pro" target="_blank">website</a> was still using <b>Wordpress</b> and they told me I could do whatever I wanted with the design. It just had to contain a list of elements and feel somehow related to e-PhotoPRO due to the fact that the website was a landing page to sell the product that e-PhotoPRO was using to take product photos as a service.<br><br>As I had recently built the template <b>I was aware of where everything was located in Wordpress</b> (which most of the time the only difficulty in Wordpress development), but it reminded me in a friendly way that if I would have to come back on that code <b>2 years later I would probably need a couple of hours to find stuff</b>. So I wrote a <b>README file</b> pointing to the most important features and their location.'
+};
+
+var ephoto = {
+	title: 'e-PhotoPRO',
+	content: 'This was my <b>first freelance job for a totally stranger client</b>. Thanks to a friend I got in contact with a company that was looking for a developer that would redo their product photography service <a href="http://e-photopro.com/" target="_blank">website</a>.<br><br>They provided me the structure of the page they wanted and I made some <b>design decisions</b> on top of it. The whole website is built with <b>Wordpress</b> and I basically changed everything from the old website.<br><br>The website itself wasn\'t a technical challenge because I was already fluent in Wordpress but it started a <b>business relationship</b> that gave me several projects in the future.'
 };
 
 var showdownStats = {
@@ -78,4 +78,4 @@ var spainVGC = {
 	content: 'This was my <b>first coding task ever</b>. I used to play Pokemon e-sport (VGC) around 2011, so I decided to build the <b>first online community for VGC players</b>. Although all our content was in spanish, we had over 500 active users and over 1000 messages in the forum per day.<br><br>The initial website was built with the help of <b>Namo</b> web editor in plain <b>HTML</b> and <b>CSS</b> and the forum with <b>MyBB</b> open source forum software. Later on I learnt enough to migrate to <b>Wordpress</b>.<br><br>This first project taught me a lot about <b>managing teams of people</b> (we were 6 people in the staff), about <b>finding and niche communities</b> and about <b>organising championships and all kind of events</b>.'
 };
 
-var descriptions = [ botxo, exce, incyde, logo, talentum, websail, ephoto, picbooth, showdownStats, vgcLadder, rating, swipe, react, mrmelon, rincon, spainVGC ];
+var descriptions = [ botxo, exce, incyde, logo, talentum, websail, picbooth, ephoto, showdownStats, vgcLadder, rating, swipe, react, mrmelon, rincon, spainVGC ];
