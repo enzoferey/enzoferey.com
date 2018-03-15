@@ -152,7 +152,7 @@
 			"file": "website/js/data-portfolio.js",
 			"settings":
 			{
-				"buffer_size": 15682,
+				"buffer_size": 18549,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -294,6 +294,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">.",
 			"Pokémon",
 			"already",
 			"articles",
@@ -372,15 +373,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15682,
+						"buffer_size": 18549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								521,
-								521
+								6415,
+								6415
 							]
 						],
 						"settings":
@@ -389,7 +390,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 15.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
