@@ -152,7 +152,7 @@
 			"file": "website/js/data-portfolio.js",
 			"settings":
 			{
-				"buffer_size": 18549,
+				"buffer_size": 21560,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -373,15 +373,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18549,
+						"buffer_size": 21560,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6415,
-								6415
+								307,
+								311
 							]
 						],
 						"settings":
@@ -390,7 +390,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

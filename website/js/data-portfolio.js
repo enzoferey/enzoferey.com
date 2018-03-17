@@ -1,16 +1,16 @@
 var botxo = {
 	title: 'BotXO',
-	content: '-Soon-'
+	content: 'This is my <b>first full time job</b>. Currently working as frontend developer with <b>React</b> for this <a href="http://www.botxo.co/" target="_blank">company</a>. We are building next generation of chatbots, both decision tree and NPL based.<br><br>I will write more about it in the future.'
 };
 
 var exce = {
 	title: 'Exce Consulting Group',
-	content: '-Soon-'
+	content: 'This was my <b>first professional React project</b>. The same company that asked me to do <a href="http://e-photopro.com/" alt="_blank">e-PhotoPRO</a> and <a href="http://picbooth.pro/" target="_blank">Picbooth</a> now wanted to build a <b>CRM</b> for their consulting group business. They offer a complete service that starts helping the client with his idea and finishes by delivering the complete product. Most of the tasks are outsourced, so they needed a special CRM to manage both the <b>bills</b> of their clients and the <b>bills of the manufacturers</b> and create <b>relationships</b> between them.<br><br>We had an initial meeting where they explained me how their business works and what is their workflow. I was given a diagram of the complete workflow and they told me that <b>I had to do everything</b>. From mockups to validate that the design was solving their problem to coding both front and backend.<br><br>I used <b>Figma</b> for design, <b>React</b> on frontend and <b>Node.js + PostgreSQL</b> for backend hosted on <b>Heroku</b>.<br><br>This development lasted for <b>2 months</b> and half where I rushed like 12 days and worked a little bit other days. Sometimes it was a little bit upsetting because the company itself was discovering along the way that they actually needed much more than what they told me initially so I had to <b>redo half of the work</b>. This is something common in software development I was told, because companies start to build things before they actually know what they exactly need (even if they have a small list of features requirements), but I believe this is something that can be prevented.'
 };
 
 var incyde = {
 	title: 'Cámaras Fundación INCYDE',
-	content: '-Soon-'
+	content: 'This project was my <b>first paid teacher job</b>. One day a friend sent me an email asking if I would be able to be teacher for a 90 hours mobile app development course. I didn\'t think it twice, I answered yes.<br><br>Throught <b>3 weeks</b> I taught a group of <b>12 students</b> everything I could. As many of them had never wrote a single line of code the first week we started learning some <b>Java</b>. In second week I introduced them to <b>basic web development</b> (HTML, CSS and Javascript). Finally in third week I prepared some classes about <b>Node.js</b> so they have some backend concepts and I taught them how to wrap their websites into <b>Apache Cordova</b> so they could actually do mobile apps (that was what the course was about).<br><br>This experience was very gratifying. <b>I really enjoy teaching</b> because I have always wished, and I still do, that someone teaches me things that would take me several months or years to learn by practice. In this course I tried to be that teacher, <b>focusing on global comprehension</b> rather than on a specific language.'
 };
 
 var logo = {
