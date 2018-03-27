@@ -143,7 +143,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9043,
+				"buffer_size": 9251,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -152,7 +152,7 @@
 			"file": "website/js/data-portfolio.js",
 			"settings":
 			{
-				"buffer_size": 21560,
+				"buffer_size": 22754,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -343,15 +343,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9043,
+						"buffer_size": 9251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4591,
-								4591
+								7487,
+								7487
 							]
 						],
 						"settings":
@@ -361,7 +361,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1152.0,
+						"translation.y": 1890.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -373,15 +373,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21560,
+						"buffer_size": 22754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								311
+								9600,
+								9600
 							]
 						],
 						"settings":
@@ -389,8 +389,8 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 176.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
