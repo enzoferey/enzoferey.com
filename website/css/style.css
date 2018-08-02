@@ -1,263 +1,280 @@
-html, body {
-	margin: 0;
-	padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 section {
-	width: 90%;
-	margin: 0 auto;
-	border-bottom: 1px solid #ddd;
-	max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  max-width: 1024px;
 }
 
 h1 {
-	margin: 30px 0;
-	font-family: Montserrat;
-	font-size: 40px;
-	color: #222;
-	text-transform: uppercase;
-	text-align: center;
+  margin: 30px 0;
+  font-family: Montserrat;
+  font-size: 40px;
+  color: #222;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #logo {
-	text-align: center;
+  text-align: center;
 }
 
 .logo {
-	font-size: 60px;
-	font-family: PoiretOne;
-	text-transform: uppercase;
-	margin-top: 60px;
-	margin-bottom: 30px;
+  font-size: 60px;
+  font-family: PoiretOne;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .sublogo {
-	width: 80%;
-	margin: 0 auto 70px;
-	color: #666666;
-	font-size: 18px;
-	font-family: Lato;
-	font-style: italic;
+  width: 80%;
+  margin: 0 auto 70px;
+  color: #666666;
+  font-size: 18px;
+  font-family: Lato;
+  font-style: italic;
 }
 
 #social-media {
-	text-align: center;
-	font-size: 60px;
+  text-align: center;
+  font-size: 60px;
 }
 
 #social-media ul {
-	list-style: none;
-	height: 90px;
-	display: block;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  height: 90px;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 #social-media li {
-	height: 100%;
-	width: 80px;
-	display: inline-block;
-	position: relative;
+  height: 100%;
+  width: 80px;
+  display: inline-block;
+  position: relative;
 }
 
 #social-media a {
-	color: #222;
-	text-decoration: none;
+  color: #222;
+  text-decoration: none;
 }
 
 #social-media svg {
-	position: absolute;
-	top: 50%;
-	bottom: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #social-media svg:hover {
-	fill: #444;
+  fill: #444;
 }
 
 #about-me {
-	padding: 30px 0;
+  padding: 30px 0;
 }
 
 #about-me img {
-	width: 300px;
-	height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .center {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 690px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 690px;
+  margin: 0 auto;
 }
 
 .center > * {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 
 #description {
-    height: 300px;
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 300px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #description p {
-	font-family: Montserrat;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-    align-self: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  align-self: center;
 }
 
-
 #email {
-	margin-top: 30px;
-	text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 #email svg {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 #email p {
-	display: inline-block;
-	margin: 0;
-	margin-left: 10px;
-	vertical-align: middle;
-	font-size: 20px;
-	font-weight: normal;
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 #portfolio {
-	padding-bottom: 50px;
-	text-align: center;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .portfolio-element {
-	display: inline-block;
-    width: 200px;
-    height: 100px;
-    padding: 0 30px;
-    margin: 20px 20px 0;
-    position: relative;
-    vertical-align: middle;
-    cursor: pointer;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  padding: 0 30px;
+  margin: 20px 20px 0;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
 }
 
 .portfolio-element img {
-	width: 200px;
-	position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
 }
 
 .portfolio-element p {
-	width: 200px;
-	position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Montserrat;
-    font-size: 17px;
-    color: white;
-    margin: 0;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-size: 17px;
+  color: white;
+  margin: 0;
 }
 
 .portfolio-description {
-	padding: 20px 0;
-	display: none;
+  padding: 20px 0;
+  display: none;
+  animation-name: appear;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  position: relative;
+  left: 100%;
+  opacity: 0;
+}
+
+@keyframes appear {
+  from {
+    left: 100%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
 }
 
 .portfolio-description a {
-	color: #222;
-	font-weight: bold;
-	text-decoration: none;
-	border-bottom: 1.5px solid #222;
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1.5px solid #222;
 }
 
 .portfolio-description .container {
-	width: 90%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .portfolio-description .title {
-	font-family: Montserrat;
-	font-size: 24px;
-	text-align: center;
-	font-weight: bold;
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .portfolio-description .content {
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.58;
-	letter-spacing: -.003em;
-	text-align: left;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+  text-align: left;
 }
 
 .back {
-	float: left;
-	cursor: pointer;
-	margin-top: 10px;
+  float: left;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .back svg {
-	vertical-align: middle;
-	margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .back p {
-	display: inline-block;
-	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: bold;
-	vertical-align: middle;
-	margin: 0;
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0;
 }
 
 #footer-bar {
-	background: #222;
-	color: white;
-	font-family: Montserrat;
-	font-size: 16px;
-	line-height: 16px;
-	width: 100%;
-	height: 45px;
-	text-align: right;
+  background: #222;
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 16px;
+  width: 100%;
+  height: 45px;
+  text-align: right;
 }
 
 #powered {
-	line-height: 45px;
-	position: relative;
-	right: 10px;
+  line-height: 45px;
+  position: relative;
+  right: 10px;
 }
 
 #powered img {
-	height: 20px; 
-	display: inline-block;
-	position: relative;
-	top: 3px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
 }
 
 /*************** FONTS **************/
 @font-face {
-	font-family: PoiretOne; 
-	src: url('../fonts/PoiretOne.ttf');
+  font-family: PoiretOne;
+  src: url("../fonts/PoiretOne.ttf");
 }
 
 @font-face {
-	font-family: Montserrat;
-	src: url('../fonts/Montserrat.otf');
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat.otf");
 }
 
 @font-face {
-	font-family: Lato;
-	src: url('../fonts/Lato.ttf');
+  font-family: Lato;
+  src: url("../fonts/Lato.ttf");
 }
