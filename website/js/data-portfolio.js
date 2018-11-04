@@ -1,3 +1,41 @@
+var truffls = {
+  title: "Truffls",
+  content:
+    "I am currently working full time at Truffls, a german company that wants to simplify the application and recruiting" +
+    "process for both side and turn it into something people love to do." +
+    "<br/><br/>" +
+    "The company is in a huge momentum and there are several big milestones in the next few months that I will be glad to share over here !",
+};
+
+var iocari = {
+  title: "iOcari",
+  content:
+    "I developed the website for <b>iOcari</b>, a mobile phone app for finding people nearby you to play board games with." +
+    'I got approached by the 2 girls running <a href="http://www.thebluecorp.com" target="_blank">The Blue Corp</a> because they were looking for a React developer for this mobile phone app.' +
+    "<br/><br/>" +
+    "Initially interested in developing a mobile phone app with <b>React Native</b>, which is something I had never done professionally, " +
+    "I accepted the collaboration with them as an exercise to learn new things." +
+    "<br/><br/>" +
+    "Time past and life happened and I ended up only developing the website for the app and a small part of the mobile phone app. " +
+    "Both projects are open source:<br/>" +
+    "<ul>" +
+    "<li>" +
+    "<b>Website</b>" +
+    "<br/><br/>" +
+    "I built all the frontend part of it using <b>React</b> and actively collaborated with the designers on <b>AdobeXD</b> and <b>Figma</b> to improve both <b>UX</b> and <b>UI</b>.<br/><br/>" +
+    "It is hosted on <b>Netlify</b> and their amazing <b>CDN</b> distribution.<br/><br/>" +
+    'You can see it clicking <a href="https://nifty-bardeen-35d3c4.netlify.com" target="_blank">here</a> and have a look at the source code <a href="https://github.com/iOcariApp/website" target="_blank">here</a>.' +
+    "</li>" +
+    "<br/>" +
+    "<li>" +
+    "<b>Mobile phone app</b>" +
+    "<br/><br/>" +
+    "I built the architecture, login/register workflow, and main navigation of the app using <b>React Native</b>. I also actively collaborated of the <b>UX</b> and <b>UI</b> process.<br/><br/>" +
+    'You can have a look at the source code <a href="https://github.com/iOcariApp/app" target="_blank">here</a>.' +
+    "</li>" +
+    "</lu>",
+};
+
 var botxo = {
   title: "BotXO",
   content:
@@ -121,6 +159,8 @@ var spainVGC = {
 };
 
 var descriptions = [
+  truffls,
+  iocari,
   botxo,
   exce,
   incyde,
