@@ -34,9 +34,10 @@ h1 {
   width: 80%;
   margin: 0 auto 70px;
   color: #666666;
-  font-size: 18px;
+  font-size: 21px;
   font-family: "Lato", sans-serif;
   font-style: italic;
+  letter-spacing: 0.4px;
 }
 
 #social-media {
