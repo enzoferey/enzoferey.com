@@ -266,24 +266,24 @@ h1 {
   font-family: "Montserrat";
   font-weight: normal;
   font-style: normal;
-  src: local("Montserrat"), url("../fonts/Montserrat-regular.ttf");
+  src: local("Montserrat"), url("../fonts/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: "Montserrat";
   font-weight: bold;
   font-style: normal;
-  src: local("Montserrat Bold"), url("../fonts/Montserrat-bold.ttf");
+  src: local("Montserrat Bold"), url("../fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
   font-family: "Lato";
   font-weight: normal;
   font-style: normal;
-  src: local("Lato"), url("../fonts/Lato-regular.ttf");
+  src: local("Lato"), url("../fonts/Lato-Regular.ttf");
 }
 @font-face {
   font-family: "Lato";
   font-weight: normal;
   font-style: italic;
-  src: local("Lato Italic"), url("../fonts/Lato-italic.ttf");
+  src: local("Lato Italic"), url("../fonts/Lato-Italic.ttf");
 }
