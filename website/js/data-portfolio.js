@@ -1,8 +1,8 @@
 var truffls = {
   title: "Truffls",
   content:
-    "I am currently working full time at Truffls, a german company that wants to simplify the application and recruiting" +
-    "process for both side and turn it into something people love to do." +
+    "I am currently working full time at Truffls, a german company that wants to simplify the application and recruiting " +
+    "process and turn it into something people love to do." +
     "<br/><br/>" +
     "The company is in a huge momentum and there are several big milestones in the next few months that I will be glad to share over here !",
 };
