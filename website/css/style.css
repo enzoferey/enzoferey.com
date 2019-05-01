@@ -122,13 +122,19 @@ h1 {
   vertical-align: middle;
 }
 
-#email p {
+#email a {
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
   margin: 0;
   margin-left: 10px;
   vertical-align: middle;
   font-size: 20px;
   font-weight: normal;
+  color: #222;
+  text-decoration: none;
+}
+#email a:hover {
+  text-decoration: underline;
 }
 
 #portfolio {
