@@ -143,7 +143,7 @@ var rincon = {
 var spainVGC = {
   title: "SpainVGC",
   content:
-    "This was my <b>first coding task ever</b>. I used to play Pokemon e-sport (VGC) around 2011, so I decided to build the <b>first online community for VGC players</b>. Although all our content was in Spanish, we had over 500 active users and over 1000 messages in the forum per day.<br><br>The initial website was built with the help of <b>Namo</b> web editor in plain <b>HTML</b> and <b>CSS</b> and the forum with <b>MyBB</b> open source forum software. Later on I learnt enough to migrate to <b>Wordpress</b>.<br><br>This first project taught me a lot about <b>managing teams of people</b> (we were 6 people in the staff), about <b>finding and niche communities</b> and about <b>organizing championships and all kind of events</b>.",
+    "This was my <b>first coding task ever</b>. I used to play Pokemon e-sport (VGC) around 2011, so I decided to build the <b>biggest online community for VGC players</b>. Although all our content was in Spanish, we had over 500 active users and over 1000 messages in the forum per day.<br><br>The initial website was built with the help of <b>Namo</b> web editor in plain <b>HTML</b> and <b>CSS</b> and the forum with <b>MyBB</b> open source forum software. Later on I learnt enough to migrate to <b>Wordpress</b>.<br><br>This first project taught me a lot about <b>managing teams of people</b> (we were 6 people in the staff), about <b>finding and niche communities</b> and about <b>organizing championships and all kind of events</b>.",
 };
 
 var descriptions = [
