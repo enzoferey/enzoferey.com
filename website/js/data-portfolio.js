@@ -122,18 +122,6 @@ var vgcLadder = {
     "This was my <b>first backend project</b>. At the beginning of summer 2017 some friends who run the <b>biggest spanish Pokemon esport community in Spain</b> approached me to solve <b>one big problem</b> in the community at that moment. People were training on online simulators but tournaments were actually played on consoles, which felt kind of different, plus tournament games were <b>best of three sets</b> and there wasn't a way to play bo3 on the simulator. We discussed for several days to find a solution and we eventually created <a href=\"http://vgcladder.com/\" target=\"_blank\">VGC Ladder</a>.<br><br>This website is a matchmaking platform for people who wants to play bo3 sets with other people of their level. It incorporates an <b>ELO-like system</b> and there is a <b>ranking</b>. Everything was built with <b>Node.js</b>, <b>PostgreSQL</b> database, <b>Socket.io</b> for private chat communication between matched players and plain <b>HTML, CSS, jQuery</b> for front-end (I didn't choose React because that would just add a layer of difficulty to the project and I wanted to focus on backend architecture).<br><br>The project itself ended up being a <b>failure</b> because we got huge spikes the first days and the platform wasn't robust enough to handle like <b>500 players</b> at the same time, plus <b>we didn't manage to find the right solution</b> for cheating (when points are earned or lost people will always try to hack the system). By the time I fixed both of these mistakes players had stopped using it and <b>we never got a chance to do a second launch</b>.<br><br>Looking back this was my <b>first full stack project</b> and the first time ever I was doing backend tasks such creating a <b>database from scratch</b>, having a <b>server</b>, deploying to <b>Heroku</b>, <b>monitorize</b> the server with <b>email alerts</b>, etc. <b>The only thing I didn't do myself was the logo</b>. I guess it was good enough for a first time.",
 };
 
-var rating = {
-  title: "react-rating-system",
-  content:
-    'This was my <b>first true React component</b>. After publishing <a href="https://github.com/enzoferey/react-swipe-navigation" target="_blank">react-swipe-navigation</a> I felt kinda like a thief because I didn\'t add that much on top of the already existing code I used, so I decided I would build <b>something from the ground</b>. At that time I started a project for a local JustEat-like that finally never happened, but I knew I would need a <b>rating system</b> for the restaurants. A couple of hours later I had a first version of <a href="https://github.com/enzoferey/react-rating-system" target="_blank">react-rating-system</a>.<br><br>By that time I already had a better understanding of React, so the result ended up being far better than the previous component. I remember the abstraction of this component being way more difficult to adjust all the <a href="https://www.enzoferey.com/react-rating-system/" target="_blank">silly use cases of the demo</a>.',
-};
-
-var swipe = {
-  title: "react-swipe-navigation",
-  content:
-    "This was my <b>first open source code</b>. Along the first month learning React I stumbled into <b>npm</b> package manager and the idea of having <b>something mine accessible to everybody in the whole world through a single command</b> was mind blowing for me. It was a way to giveback to the community as well. So I decided to build something I would probably use a lot in all kind of projects and specially beginners would like to have. That's why I created <a href=\"https://github.com/enzoferey/react-swipe-navigation\" target=\"_blank\">react-swipe-navigation</a> (this was way before discovering react-router).<br><br>It's nothing more than a typical <b>Tabs component</b>, but it actually taught me a lot things. First of all <b>component abstraction</b>, in order to be reusable to other people in other project it had to be <b>totally independent and customizable</b>. In second place, as I didn't have much experience yet, I had to reuse a library which was already solving the problem in plain JS, that helped me to understand more about <b>imports</b> and <b>exports</b>. Finally I had to do all the process of uploading it to npm and setting up a <b>README</b> page in Github, I remember it like something quite magical. The code is actually very funny, but I won't update it.",
-};
-
 var react = {
   title: "How I fell in love with React",
   content:
@@ -172,8 +160,6 @@ var descriptions = [
   ephoto,
   showdownStats,
   vgcLadder,
-  rating,
-  swipe,
   react,
   mrmelon,
   rincon,
