@@ -1,3 +1,13 @@
+var lavilaine = {
+  title: "LaVilaine",
+  content:
+    'I am currently working as a freelancer on the rebranding of <a href="https://ponchospareosyvestidosdeplaya-lavilaine.es" target="_blank">LaVilaine</a>, ' +
+    "a summer clothes wholesaler with big presence in all the Spanish mediterranean coast." +
+    "<br/><br/>" +
+    "In this project I’m helping out the company to move to a digital ecommerce experience with a new fresh look that will help them " +
+    "differentiate from competitors working the same way than they did 10 years ago."
+};
+
 var truffls = {
   title: "Truffls",
   content:
@@ -147,6 +157,7 @@ var spainVGC = {
 };
 
 var descriptions = [
+  lavilaine,
   truffls,
   iocari,
   botxo,
