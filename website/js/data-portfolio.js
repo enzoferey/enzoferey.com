@@ -11,8 +11,8 @@ var lavilaine = {
 var truffls = {
   title: "Truffls",
   content:
-    "This was my <b>second full time job</b>. I worked for 6 months as a frontend developer at Truffls, a german company that wants to simplify " +
-    "the application and recruiting process and turn it into something people love to do." +
+    'This was my <b>second full time job</b>. I worked for 6 months as a frontend developer at <a href="https://truffls.de/en/" target="_blank">Truffls</a>, ' +
+    "a german company that wants to simplify the application and recruiting process and turn it into something people love to do." +
     "<br/><br/>" +
     "Some highlights of my work there include:" +
     "<br/>" +
