@@ -1,11 +1,34 @@
 var lavilaine = {
   title: "LaVilaine",
   content:
-    'I am currently working as a freelancer on the rebranding of <a href="https://ponchospareosyvestidosdeplaya-lavilaine.es" target="_blank">LaVilaine</a>, ' +
+    'This was a very ambitious freelance job. I worked on the rebranding of <a href="https://mayorista.lavilaine.es" target="_blank">LaVilaine</a>, ' +
     "a summer clothes wholesaler with big presence in all the Spanish mediterranean coast." +
     "<br/><br/>" +
-    "In this project I’m helping out the company to move to a digital ecommerce experience with a new fresh look that will help them " +
-    "differentiate from competitors working the same way than they did 10 years ago."
+    "In this project I helped the company to move to a <b>digital ecommerce experience</b> with a new fresh look that will help them " +
+    "differentiate from competitors working the same way than they did 10 years ago." +
+    "<br/><br/>" +
+    "I was in charge on the whole rebranding process, working closely with the company owners. This included:" +
+    "<br/>" +
+    "<ul>" +
+    "<li>" +
+    "Designed a <b>new corporate identity</b>, logo, and branding in general." +
+    "</li>" +
+    "<li>" +
+    "Designed the <b>new website experience</b>." +
+    "</li>" +
+    "<li>" +
+    "Implemented an <b>ecommerce website</b> using cutting edge technologies like <b>Gatsby</b> and <b>Contentful</b>." +
+    "</li>" +
+    "<li>" +
+    "Designed and implemented a database (<b>PostgreSQL</b>) for storing users and checkouts data." +
+    "</li>" +
+    "<li>" +
+    "Designed the <b>API</b> for accessing the database and implemented an <b>Express.js</b> server to serve it." +
+    "</li>" +
+    "<li>" +
+    "Implemented an <b>admin dashboard</b> to manage users and checkout." +
+    "</li>" +
+    "</ul>"
 };
 
 var truffls = {
