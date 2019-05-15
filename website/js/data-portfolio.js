@@ -11,10 +11,32 @@ var lavilaine = {
 var truffls = {
   title: "Truffls",
   content:
-    "I am currently working full time at Truffls, a german company that wants to simplify the application and recruiting " +
-    "process and turn it into something people love to do." +
+    "This was my <b>second full time job</b>. I worked for 6 months as a frontend developer at Truffls, a german company that wants to simplify " +
+    "the application and recruiting process and turn it into something people love to do." +
     "<br/><br/>" +
-    "The company is in a huge momentum and there are several big milestones in the next few months that I will be glad to share over here !",
+    "Some highlights of my work there include:" +
+    "<br/>" +
+    "<ul>" +
+    "<li>" +
+    "Developed new cross platform features (including IE 10)." +
+    "</li>" +
+    "<li>" +
+    "Improved the codebase and reduce technical debt." +
+    "</li>" +
+    "<li>" +
+    "Migrated successfully 3 legacy untested applications to modern stacks." +
+    "</li>" +
+    "<li>" +
+    "Improved processes and started new ones to improve work efficiency and quality." +
+    "</li>" +
+    "<li>" +
+    "Ownership of the design system." +
+    "</li>" +
+    "<li>" +
+    "Completed by my own 80% of an optimistic 3 months roadmap which was originally planned for 3 developers." +
+    "</li>" +
+    "</ul>" +
+    "Our core stack was <b>React</b>, redux, redux-sagas, webpack, etc. and I introduced <b>Gatsby</b> and <b>Next.js</b> (+ <b>Node.js</b> servers) for the migrated legacy applications."
 };
 
 var iocari = {
@@ -51,7 +73,7 @@ var botxo = {
   content:
     "This was my <b>first full time job</b>. I worked for 5 months as a frontend developer and designer for this " +
     '<a href="http://www.botxo.co/" target="_blank">danish company</a>. It is a SaaS company who sells tools ' +
-    "so other companies can easily create their chatbots.<br/><br/>" +
+    "so other companies can easily create their chatbots. They are the number one chatbots provider in the Nordic European countries.<br/><br/>" +
     "Along those 5 months, I took <b>frontend leadership</b> on the new big features and worked on the existing " +
     "codebase fixing bugs and improving code quality. Some numbers about it:<br/>" +
     "<ul>" +
