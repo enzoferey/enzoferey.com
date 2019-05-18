@@ -46,18 +46,25 @@ h1 {
 }
 
 #social-media ul {
-  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   height: 90px;
-  display: block;
+
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 #social-media li {
-  height: 100%;
-  width: 80px;
-  display: inline-block;
   position: relative;
+
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+
+  margin: 0px 8px;
 }
 
 #social-media a {
@@ -70,6 +77,9 @@ h1 {
   top: 50%;
   bottom: 50%;
   transform: translate(-50%, -50%);
+
+  height: 10vw;
+  max-height: 100%;
 }
 
 #social-media svg:hover {
