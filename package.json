@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website",
   "scripts": {
-    "prettier": "prettier --config \"./.prettierrc.js\" --write \"**/*.@(js|scss|css|json)\""
+    "prettier": "prettier --config \"./.prettierrc.js\" --write \"**/*.@(js|scss|css|json|html)\""
   },
   "repository": {
     "type": "git",
