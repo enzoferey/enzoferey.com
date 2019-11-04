@@ -28,7 +28,7 @@ var lavilaine = {
     "<li>" +
     "Implemented an <b>admin dashboard</b> to manage users and checkout." +
     "</li>" +
-    "</ul>"
+    "</ul>",
 };
 
 var truffls = {
@@ -59,7 +59,7 @@ var truffls = {
     "Completed by my own 80% of an optimistic 3 months roadmap which was originally planned for 3 developers." +
     "</li>" +
     "</ul>" +
-    "Our core stack was <b>React</b>, redux, redux-sagas, webpack, etc. and I introduced <b>Gatsby</b> and <b>Next.js</b> (+ <b>Node.js</b> servers) for the migrated legacy applications."
+    "Our core stack was <b>React</b>, redux, redux-sagas, webpack, etc. and I introduced <b>Gatsby</b> and <b>Next.js</b> (+ <b>Node.js</b> servers) for the migrated legacy applications.",
 };
 
 var iocari = {
