@@ -1,1 +1,2 @@
-*.code-workspace
+# MACOS files
+.DS_Store
