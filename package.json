@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --config \"./.prettierrc.js\" --write \"./lib/**/*.@(js|scss|css|json)\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/enzoferey/enzoferey.github.io/issues"
   },
-  "homepage": "https://github.com/enzoferey/enzoferey.github.io#readme"
+  "homepage": "https://github.com/enzoferey/enzoferey.github.io#readme",
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
 }
