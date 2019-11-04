@@ -3,3 +3,6 @@ node_modules
 
 # MACOS files
 .DS_Store
+
+# IDEs
+.vscode
