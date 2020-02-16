@@ -9,6 +9,18 @@ var chance = {
     "Our stack is <b>React</b>, <b>GraphQL</b> and <b>styled-components</b> on the frontend and <b>NodeJS</b>, <b>Express</b>, <b>GraphQL</b>, <b>Objection</b>, <b>Postgre</b>, <b>Knex</b> on the backend.",
 };
 
+var victoryroad = {
+  title: "Victory Road",
+  content:
+    'This is my <b>main side project</b>. <a href="https://victoryroadvgc.com" target="_blank">Victory Road</a> is the biggest Pokémon Video Game Championship community in the world and reference in Spain for this e-sport.' +
+    "<br/><br/>" +
+    "I started doing some consultant work for co-founders Rubén and David around May 2016 and I joined the co-founder team around summer 2019. I’m in charge of everything development related." +
+    "<br/><br/>" +
+    "Our current focus is bringing a full package experience for players via a platform with several tools and tournaments. We are also doing the streaming of big events in the official circuit organised by The Pokemon Company." +
+    "<br/><br/>" +
+    "Website is running on <b>Wordpress</b> (currently being migrated to <b>Gatsby</b> + Wordpress as CMS), and the platform is in construction using <b>NextJS</b>.",
+};
+
 var lavilaine = {
   title: "LaVilaine",
   content:
@@ -214,6 +226,7 @@ var spainVGC = {
 
 var descriptions = [
   chance,
+  victoryroad,
   lavilaine,
   truffls,
   iocari,
