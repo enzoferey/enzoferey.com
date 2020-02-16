@@ -1,3 +1,14 @@
+var chance = {
+  title: "Chance",
+  content:
+    'This is my <b>third full time job</b>. <a href="https://chance.co" target="_blank">Chance</a> is french company where we are developing a PsyTech product that provides tools to the people so they ' +
+    "can find a job to thrive in life." +
+    "<br/><br/>" +
+    "I’m leading the frontend team, managing external freelancers, and wearing many hats as <b>Fullstack Developer</b>." +
+    "<br/><br/>" +
+    "Our stack is <b>React</b>, <b>GraphQL</b> and <b>styled-components</b> on the frontend and <b>NodeJS</b>, <b>Express</b>, <b>GraphQL</b>, <b>Objection</b>, <b>Postgre</b>, <b>Knex</b> on the backend.",
+};
+
 var lavilaine = {
   title: "LaVilaine",
   content:
@@ -202,6 +213,7 @@ var spainVGC = {
 };
 
 var descriptions = [
+  chance,
   lavilaine,
   truffls,
   iocari,
