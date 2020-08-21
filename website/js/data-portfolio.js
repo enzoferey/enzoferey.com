@@ -1,24 +1,22 @@
 var chance = {
   title: "Chance",
   content:
-    'This is my <b>third full time job</b>. <a href="https://chance.co" target="_blank">Chance</a> is french company where we are developing a PsyTech product that provides tools to the people so they ' +
-    "can find a job to thrive in life." +
+    'This is my <b>third full time job</b>. <a href="https://chance.co" target="_blank">Chance</a> is french company that is developing a product that mixes the best ' +
+    "of psychology and technology (PsyTech) to provide the tools and environments for people to find a job that will make them thrive in life." +
     "<br/><br/>" +
-    "I’m leading the frontend team, managing external freelancers, and wearing many hats as <b>Fullstack Developer</b>." +
+    "After one year of work as a <b>Fullstack Developer</b>, I’m now <b>leading the frontend team</b> while still actively contributing on other parts of tech in the company." +
     "<br/><br/>" +
-    "Our stack is <b>React</b>, <b>GraphQL</b> and <b>styled-components</b> on the frontend and <b>NodeJS</b>, <b>Express</b>, <b>GraphQL</b>, <b>Objection</b>, <b>Postgre</b>, <b>Knex</b> on the backend.",
+    "Our stack is <b>React</b>, <b>GraphQL</b>, and styled-components on the frontend and <b>Node.js</b>, Express, GraphQL, Knex, and <b>PostgreSQL</b> on the backend.",
 };
 
 var victoryroad = {
   title: "Victory Road",
   content:
-    'This is my <b>main side project</b>. <a href="https://victoryroadvgc.com" target="_blank">Victory Road</a> is the biggest Pokémon Video Game Championship community in the world and reference in Spain for this e-sport.' +
+    'This one of my <b>side projects</b>. <a href="https://victoryroadvgc.com" target="_blank">Victory Road</a> is the biggest Pokémon Video Game Championship community in the world and reference in Spain for this e-sport.' +
     "<br/><br/>" +
-    "I started doing some consultant work for co-founders Rubén and David around May 2016 and I joined the co-founder team around summer 2019. I’m in charge of everything development related." +
+    "I started doing some consultant work for co-founders Rubén and David around May 2016 both on the technical and product/company side and I have kept collaborating with them since them from time to time." +
     "<br/><br/>" +
-    "Our current focus is bringing a full package experience for players via a platform with several tools and tournaments. We are also doing the streaming of big events in the official circuit organised by The Pokemon Company." +
-    "<br/><br/>" +
-    "Website is running on <b>Wordpress</b> (currently being migrated to <b>Gatsby</b> + Wordpress as CMS), and the platform is in construction using <b>NextJS</b>.",
+    "Website is running on <b>Wordpress</b>, and we ship most of our new applications and landing pages using <b>Next.js</b>.",
 };
 
 var lavilaine = {
@@ -27,7 +25,7 @@ var lavilaine = {
     'This was a very ambitious freelance job. I worked on the rebranding of <a href="https://mayorista.lavilaine.es" target="_blank">LaVilaine</a>, ' +
     "a summer clothes wholesaler with big presence in all the Spanish mediterranean coast." +
     "<br/><br/>" +
-    "In this project I helped the company to move to a <b>digital ecommerce experience</b> with a new fresh look that will help them " +
+    "In this project, I helped the company to move to a <b>digital e-commerce experience</b> with a new fresh look that will help them " +
     "differentiate from competitors working the same way than they did 10 years ago." +
     "<br/><br/>" +
     "I was in charge on the whole rebranding process, working closely with the company owners. This included:" +
@@ -40,7 +38,7 @@ var lavilaine = {
     "Designed the <b>new website experience</b>." +
     "</li>" +
     "<li>" +
-    "Implemented an <b>ecommerce website</b> using cutting edge technologies like <b>Gatsby</b> and <b>Contentful</b>." +
+    "Implemented an <b>e-commerce website</b> using cutting edge technologies like <b>Gatsby</b> and <b>Contentful</b>." +
     "</li>" +
     "<li>" +
     "Designed and implemented a database (<b>PostgreSQL</b>) for storing users and checkouts data." +
@@ -67,10 +65,10 @@ var truffls = {
     "Developed new cross platform features (including IE 10)." +
     "</li>" +
     "<li>" +
-    "Improved the codebase and reduce technical debt." +
+    "Improved the codebase and reduced technical debt." +
     "</li>" +
     "<li>" +
-    "Migrated successfully 3 legacy untested applications to modern stacks." +
+    "Migrated 3 legacy untested applications to modern React stacks." +
     "</li>" +
     "<li>" +
     "Improved processes and started new ones to improve work efficiency and quality." +
@@ -82,7 +80,7 @@ var truffls = {
     "Completed by my own 80% of an optimistic 3 months roadmap which was originally planned for 3 developers." +
     "</li>" +
     "</ul>" +
-    "Our core stack was <b>React</b>, redux, redux-sagas, webpack, etc. and I introduced <b>Gatsby</b> and <b>Next.js</b> (+ <b>Node.js</b> servers) for the migrated legacy applications.",
+    "Our core stack was <b>React</b>, redux, redux-sagas, webpack, and SASS. and I introduced <b>Gatsby</b> and <b>Next.js</b> (+ <b>Node.js</b> servers) for the migrated legacy applications.",
 };
 
 var iocari = {
