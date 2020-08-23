@@ -31,6 +31,7 @@ h1 {
 
 .logo {
   width: 287px;
+  max-width: 80%;
   margin-top: 60px;
   margin-bottom: 30px;
 }
