@@ -1,3 +1,25 @@
+var biteVeinStudios = {
+  title: "Bite Vein Studios",
+  content: 
+  'This is my <b>second company</b>. I co-founded <a href="https://www.biteveinstudios.com/" target="_blank">Bite Vein Studios</a> with 3 video game industry veterans (<a href="https://www.linkedin.com/in/rafa-bernab%C3%A9-21571997/" target="_blank">Rafa Bernabé</a>, <a href="https://www.linkedin.com/in/jos%C3%A9-luis-cebri%C3%A1n-pag%C3%BCe-3860316/" target="_blank">José Luis Cebrián</a>, <a href="https://www.linkedin.com/in/juli%C3%A1n-serravi-68763251/" target="_blank">Julián Serravi</a>) back in September 2021.' +
+  '<br><br>' +
+  'Our goal is clear: <b>"Draw the fun from the blockchain"</b>. We want to build experiences that are at the same level of quality that their non-blockchain counterparts, but that are even more entertaining thanks to the blockchain. Fully digital players united by a strong sense of ownership and community.' +
+  '<br><br>' +
+  'My role is the company labels as <b>"Blockchain Master"</b>. I am responsible for everything around the blockchain development. From <b>smart contracts</b>, to <b>dApps</b>.' +
+  '<br><br>' +
+  'You can read more about the background story why I am so excited about it in the <a href="https://www.linkedin.com/posts/enzoferey_hi-beautiful-network-some-updates-on-ugcPost-6910213002243768321-7bvS?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">announcement</a> I made on LinkedIn.',
+};
+
+var protofire = {
+  title: "Protofire",
+  content: 
+    'This is my <b>fourth full time job</b>. <a href="https://protofire.io/" target="_blank">Protofire</a> is is a team of engineers, which helps decentralized protocols and developer platforms to accelerate growth of their ecosystems.' +
+    '<br><br>' +
+    'I work on <b>dApps</b> frontend side and <b>Solidity</b> smart contracts to achieve clients business goals.' +
+    '<br><br>' +
+    'Tech stack includes, but not limited to, <b>React</b>, <b>Material UI</b>, <b>Zustand</b> and <b>hardhat</b>.'
+};
+
 var chance = {
   title: "Chance",
   content:
@@ -225,6 +247,8 @@ var spainVGC = {
 };
 
 var descriptions = [
+  biteVeinStudios,
+  protofire,
   chance,
   victoryroad,
   lavilaine,
