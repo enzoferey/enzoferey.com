@@ -14,11 +14,11 @@ var chance = {
 var victoryroad = {
   title: "Victory Road",
   content:
-    'This one of my <b>side projects</b>. <a href="https://victoryroadvgc.com" target="_blank">Victory Road</a> is the biggest Pokémon Video Game Championship community in the world and reference in Spain for this e-sport.' +
+    'This one of my <b>side projects</b>. <a href="https://victoryroadvgc.com" target="_blank">Victory Road</a> is the biggest Pokémon Video Game Championship community in the world and a reference in Spain for everything about e-sports.' +
     "<br/><br/>" +
     "I started doing some consultant work for co-founders Rubén and David around May 2016 both on the technical and product/company side and I have kept collaborating with them since them from time to time." +
     "<br/><br/>" +
-    "Website is running on <b>Wordpress</b>, and we ship most of our new applications and landing pages using <b>Next.js</b>.",
+    'The website is running on <b>Wordpress</b>, and we ship most of our new applications and landing pages using <b>Next.js</b>. Some of the latest work includes the <a href="https://worldcupvgc.com/" target="_blank">2022 World Cup of Pokémon VGC</a> and the <a href="https://www.victoryroadcircuit.com/" target="_blank">Victory Road Circuit</a>.',
 };
 
 var lavilaine = {
