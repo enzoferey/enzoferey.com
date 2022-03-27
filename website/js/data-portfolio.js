@@ -1,12 +1,14 @@
 var chance = {
   title: "Chance",
   content:
-    'This is my <b>third full time job</b>. <a href="https://chance.co" target="_blank">Chance</a> is french company that is developing a product that mixes the best ' +
+    'This was my <b>third full time job</b>. <a href="https://chance.co" target="_blank">Chance</a> is French company that has developed a product that mixes the best ' +
     "of psychology and technology (PsyTech) to provide the tools and environments for people to find a job that will make them thrive in life." +
     "<br/><br/>" +
-    "After one year of work as a <b>Fullstack Developer</b>, I’m now <b>leading the frontend team</b> while still actively contributing on other parts of tech in the company." +
+    "I worked for almost two years with them. First, as the second <b>Fullstack Developer</b> of the team. Then, <b>leading the frontend team</b> while still actively contributing on other parts of tech in the company. And finally, <b>leading the whole tech team</b>." +
     "<br/><br/>" +
-    "Our stack is <b>React</b>, <b>GraphQL</b>, and styled-components on the frontend and <b>Node.js</b>, Express, GraphQL, Knex, and <b>PostgreSQL</b> on the backend.",
+    "During my time at Chance, we <b>bootstrapped and scaled the whole business</b> from a technical point of view. We built the responsive auto coaching platform from the ground up, as well as the many back offices needed by the coaches, auto coaching program designers, and the operations team." +
+    "<br/><br/>" +
+    "The stack used was <b>React</b>, <b>GraphQL</b>, and styled-components on the frontend and <b>Node.js</b>, Express, GraphQL, Knex, and <b>PostgreSQL</b> on the backend.",
 };
 
 var victoryroad = {
