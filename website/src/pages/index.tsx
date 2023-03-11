@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Layout } from "@/components/Layout";
 
 import me from "@/images/me.webp";
+import { ROUTES } from "@/constants/routes";
 
 const HomePage: NextPage = () => {
   return (
@@ -32,7 +33,7 @@ const HomePage: NextPage = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on Twitter"
-              href="https://twitter.com"
+              href={ROUTES.TWITTER}
             >
               <svg
                 viewBox="0 0 24 24"
@@ -45,7 +46,7 @@ const HomePage: NextPage = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on GitHub"
-              href="https://github.com"
+              href={ROUTES.GITHUB}
             >
               <svg
                 viewBox="0 0 24 24"
@@ -62,7 +63,7 @@ const HomePage: NextPage = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on LinkedIn"
-              href="https://linkedin.com"
+              href={ROUTES.LINKEDIN}
             >
               <svg
                 viewBox="0 0 24 24"
@@ -75,7 +76,7 @@ const HomePage: NextPage = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on YouTube"
-              href="https://youtube.com"
+              href={ROUTES.YOUTUBE}
             >
               <svg
                 viewBox="0 0 71.412 50"
@@ -94,7 +95,7 @@ const HomePage: NextPage = () => {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on Instagram"
-              href="https://instagram.com"
+              href={ROUTES.INSTAGRAM}
             >
               <svg
                 viewBox="0 0 24 24"
