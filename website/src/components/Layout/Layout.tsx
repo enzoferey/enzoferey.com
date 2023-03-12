@@ -17,7 +17,7 @@ export const Layout: React.FC<Props> = (props) => {
           <Header />
         </Container>
       </header>
-      <main className="mt-16 mb-9">
+      <main className="mt-16 mb-16">
         <Container>{children}</Container>
       </main>
     </React.Fragment>

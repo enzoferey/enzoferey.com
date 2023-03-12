@@ -44,13 +44,13 @@ export const Header: React.FC<Props> = (props) => {
             className={`${isOpen ? "hidden" : "block"} h-6 w-6`}
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             aria-hidden="true"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </svg>
@@ -59,13 +59,13 @@ export const Header: React.FC<Props> = (props) => {
             className={`${isOpen ? "block" : "hidden"} h-6 w-6`}
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             aria-hidden="true"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>
@@ -73,7 +73,14 @@ export const Header: React.FC<Props> = (props) => {
 
         <div className="flex items-center justify-center flex-1 sm:flex-none sm:mr-8 sm:items-stretch sm:justify-start">
           <div className="flex flex-shrink-0 items-center">
-            <Image alt="" src={logo} width="24" height="24" />
+            <Link
+              href={ROUTES.HOME}
+              aria-current={
+                router.pathname === ROUTES.HOME ? "page" : undefined
+              }
+            >
+              <Image alt="" src={logo} width="24" height="24" />
+            </Link>
           </div>
         </div>
 
@@ -86,7 +93,9 @@ export const Header: React.FC<Props> = (props) => {
                   ? activeLinkClassname
                   : nonActiveLinkClassname
               }
-              aria-current="page"
+              aria-current={
+                router.pathname === ROUTES.HOME ? "page" : undefined
+              }
             >
               About me
             </Link>
@@ -97,7 +106,11 @@ export const Header: React.FC<Props> = (props) => {
                   ? activeLinkClassname
                   : nonActiveLinkClassname
               }
-              aria-current="page"
+              aria-current={
+                router.pathname === ROUTES.TECH_LEAD_AS_A_SERVICE
+                  ? "page"
+                  : undefined
+              }
             >
               Tech lead as-a-service
             </Link>
@@ -107,6 +120,9 @@ export const Header: React.FC<Props> = (props) => {
                 router.pathname === ROUTES.PORTFOLIO
                   ? activeLinkClassname
                   : nonActiveLinkClassname
+              }
+              aria-current={
+                router.pathname === ROUTES.PORTFOLIO ? "page" : undefined
               }
             >
               Portfolio
