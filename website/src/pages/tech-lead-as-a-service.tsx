@@ -2,6 +2,8 @@ import React from "react";
 import { NextPage } from "next";
 
 import { Layout } from "@/components/Layout";
+import { Paragraph } from "@/components/Paragraph";
+import { OrderedList } from "@/components/OrderedList";
 
 const TechLeadAsAServicePage: NextPage = () => {
   return (
@@ -96,33 +98,3 @@ const TechLeadAsAServicePage: NextPage = () => {
 };
 
 export default TechLeadAsAServicePage;
-
-interface ParagraphProps {
-  children: React.ReactNode;
-}
-
-const Paragraph: React.FC<ParagraphProps> = (props) => {
-  const { children } = props;
-
-  return <p className="mt-6 text-base text-zinc-600">{children}</p>;
-};
-
-interface OrderedListProps {
-  children: React.ReactNode[];
-}
-
-const OrderedList: React.FC<OrderedListProps> = (props) => {
-  const { children } = props;
-
-  return (
-    <ol className="mt-6 ml-4 text-base text-zinc-600">
-      {children.map((child, index) => {
-        return (
-          <li key={index} className={index > 0 ? "mt-2" : ""}>
-            {child}
-          </li>
-        );
-      })}
-    </ol>
-  );
-};

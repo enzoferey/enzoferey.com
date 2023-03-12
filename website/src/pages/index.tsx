@@ -34,6 +34,8 @@ const HomePage: NextPage = () => {
               className="group -m-1 p-1"
               aria-label="Follow on Twitter"
               href={ROUTES.TWITTER}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -47,6 +49,8 @@ const HomePage: NextPage = () => {
               className="group -m-1 p-1"
               aria-label="Follow on GitHub"
               href={ROUTES.GITHUB}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -64,6 +68,8 @@ const HomePage: NextPage = () => {
               className="group -m-1 p-1"
               aria-label="Follow on LinkedIn"
               href={ROUTES.LINKEDIN}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -77,6 +83,8 @@ const HomePage: NextPage = () => {
               className="group -m-1 p-1"
               aria-label="Follow on YouTube"
               href={ROUTES.YOUTUBE}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 viewBox="0 0 71.412 50"
@@ -96,6 +104,8 @@ const HomePage: NextPage = () => {
               className="group -m-1 p-1"
               aria-label="Follow on Instagram"
               href={ROUTES.INSTAGRAM}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 viewBox="0 0 24 24"
