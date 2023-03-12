@@ -79,7 +79,14 @@ export const Header: React.FC<Props> = (props) => {
                 router.pathname === ROUTES.HOME ? "page" : undefined
               }
             >
-              <Image alt="" src={logo} width="24" height="24" />
+              <Image
+                alt=""
+                src={logo}
+                width="24"
+                height="24"
+                priority={true}
+                quality={100}
+              />
             </Link>
           </div>
         </div>

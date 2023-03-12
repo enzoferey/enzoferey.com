@@ -122,10 +122,11 @@ const HomePage: NextPage = () => {
           <Image
             alt=""
             src={me}
-            width="512"
-            height="512"
+            width="192"
+            height="192"
             className="rounded-md bg-zinc-100 object-cover w-48 h-48"
-            style={{ color: "transparent" }}
+            priority={true}
+            quality={100}
           />
           <p className="mt-2 text-xs text-zinc-500">
             &quot;Eating. Always eating.&quot;
