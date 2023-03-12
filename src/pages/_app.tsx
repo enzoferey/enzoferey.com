@@ -40,14 +40,14 @@ export default function App({ Component, pageProps }: AppProps) {
           name="description"
           content="Learning to be the developer you want to work with | React.js lover | Maker"
         />
-        <meta name="image" content="https://enzoferey.com/og-image.png" />
+        <meta name="image" content="https://enzoferey.com/og-image.jpg" />
         {/* Schema.org for Google */}
         <meta itemProp="name" content="Enzo Ferey" />
         <meta
           itemProp="description"
           content="Learning to be the developer you want to work with | React.js lover | Maker"
         />
-        <meta itemProp="image" content="https://enzoferey.com/og-image.png" />
+        <meta itemProp="image" content="https://enzoferey.com/og-image.jpg" />
         {/* Twitter */}
         <meta name="twitter:title" content="Enzo Ferey" />
         <meta
@@ -59,7 +59,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:creator" content="@enzo_ferey" />
         <meta
           name="twitter:image"
-          content="https://enzoferey.com/og-image.png"
+          content="https://enzoferey.com/og-image.jpg"
         />
         {/* Open Graph general (Facebook, Pinterest & Google+) */}
         <meta name="og:title" content="Enzo Ferey" />
@@ -68,7 +68,7 @@ export default function App({ Component, pageProps }: AppProps) {
           content="Learning to be the developer you want to work with | React.js lover | Maker"
         />
         <meta name="og:site_name" content="Enzo Ferey" />
-        <meta name="og:image" content="https://enzoferey.com/og-image.png" />
+        <meta name="og:image" content="https://enzoferey.com/og-image.jpg" />
         <meta name="og:url" content="https://enzoferey.com" />
         <meta name="og:type" content="website" />
 
