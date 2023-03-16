@@ -1,4 +1,4 @@
-## enzo-ferey
+## enzoferey.com
 
 My personal website.
 
