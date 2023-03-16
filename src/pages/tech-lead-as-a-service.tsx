@@ -84,15 +84,41 @@ const TechLeadAsAServicePage: NextPage = () => {
         ready for the next milestone.
       </Paragraph>
 
-      <Paragraph>
-        For any more information or questions, please reach out to{" "}
-        <a href="mailto:hello@enzoferey.com" className="font-bold underline">
-          hello@enzoferey.com
-        </a>
-        .
-      </Paragraph>
-
-      <Paragraph>I can&apos;t wait to work with your team !</Paragraph>
+      <div className="mt-9 mx-auto max-w-lg rounded-2xl border border-solid border-zinc-200 p-6">
+        <h2 className="flex text-sm font-semibold text-zinc-900 flex justify-start items-center">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            className="grow-0 h-6 w-6"
+          >
+            <path
+              d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
+              className="fill-zinc-100 stroke-zinc-400"
+            ></path>
+            <path
+              d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
+              className="stroke-zinc-400"
+            ></path>
+          </svg>
+          <span className="ml-3">Get in touch</span>
+        </h2>
+        <p className="mt-2 text-sm text-zinc-600">
+          For any more information or questions just reach out.
+          <br />I can&apos;t wait to work with your team !
+        </p>
+        <div className="w-full mt-6 flex">
+          <a
+            href="mailto:hello@enzoferey.com"
+            className="flex-1 flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70"
+          >
+            Email me
+          </a>
+        </div>
+      </div>
     </Layout>
   );
 };
