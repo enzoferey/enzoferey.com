@@ -92,7 +92,7 @@ const PortfolioPage: NextPage = () => {
               to accelerate the growth of their ecosystems.
               <br />
               <br />- Worked with different clients bootstrapping and scaling
-              their products.
+              their blockchain web products.
               <br />- Led multiple tech teams.
             </React.Fragment>
           }
