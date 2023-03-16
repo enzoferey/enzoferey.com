@@ -77,8 +77,8 @@ const PortfolioPage: NextPage = () => {
                   y2="6.5862"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#F54703"></stop>
-                  <stop offset="1" stop-color="#FAC902"></stop>
+                  <stop stopColor="#F54703"></stop>
+                  <stop offset="1" stopColor="#FAC902"></stop>
                 </linearGradient>
               </defs>
             </svg>
