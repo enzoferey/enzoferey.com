@@ -85,7 +85,7 @@ const TechLeadAsAServicePage: NextPage = () => {
       </Paragraph>
 
       <div className="mt-9 mx-auto max-w-lg rounded-2xl border border-solid border-zinc-200 p-6">
-        <h2 className="flex text-sm font-semibold text-zinc-900 flex justify-start items-center">
+        <h2 className="text-sm font-semibold text-zinc-900 flex justify-start items-center">
           <svg
             viewBox="0 0 24 24"
             fill="none"

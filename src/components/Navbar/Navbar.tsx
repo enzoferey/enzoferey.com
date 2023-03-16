@@ -25,11 +25,11 @@ export const Header: React.FC<Props> = (props) => {
   const router = useRouter();
 
   return (
-    <nav>
-      <div className="relative flex items-center justify-start">
+    <nav className="w-full">
+      <div className="w-full relative flex items-center justify-start">
         <button
           type="button"
-          className="absolute sm:hidden inline-flex items-center justify-center rounded-md p-2 text-zinc-400 hover:bg-zinc-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          className="grow-0 absolute left-0 sm:hidden inline-flex items-center justify-center rounded-md p-2 text-zinc-400 hover:bg-zinc-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           aria-controls="mobile-menu"
           aria-expanded="false"
           onClick={() => {
@@ -91,7 +91,7 @@ export const Header: React.FC<Props> = (props) => {
           </div>
         </div>
 
-        <div className="hidden sm:ml-6 sm:block">
+        <div className="hidden flex-1 sm:ml-6 sm:block">
           <div className="flex space-x-4">
             <Link
               href={ROUTES.HOME}
@@ -136,6 +136,31 @@ export const Header: React.FC<Props> = (props) => {
             </Link>
           </div>
         </div>
+
+        <a
+          href="mailto:hello@enzoferey.com"
+          className={`grow-0 absolute right-0 border border-solid border-zinc-200 hover:border-zinc-300 text-zinc-500 hover:text-zinc-700 rounded-md px-2 py-1 sm:px-3 sm:py-2 text-sm font-medium flex justify-start items-center`}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            className="grow-0 w-6 h-6"
+          >
+            <path
+              d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
+              className="fill-zinc-100 stroke-zinc-400"
+            ></path>
+            <path
+              d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
+              className="stroke-zinc-400"
+            ></path>
+          </svg>
+          <span className="ml-3 hidden md:block">Contact</span>
+        </a>
       </div>
 
       <div
