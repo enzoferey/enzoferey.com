@@ -107,6 +107,22 @@ const TechLeadAsAServicePage: NextPage = () => {
           <span className="ml-3">Get in touch</span>
         </h2>
         <p className="mt-2 text-sm text-zinc-600">
+          I&apos;m currently offering a <u>free 30 minutes call</u> to discuss
+          your needs.
+          <br />I can&apos;t wait to hear from you!
+        </p>
+        <div className="w-full mt-6 flex">
+          <a
+            href="https://calendly.com/enzo-ferey/tech-lead-as-a-service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70"
+          >
+            Book call
+          </a>
+        </div>
+        {/*
+        <p className="mt-2 text-sm text-zinc-600">
           For any more information or questions just reach out.
           <br />I can&apos;t wait to work with your team !
         </p>
@@ -118,6 +134,7 @@ const TechLeadAsAServicePage: NextPage = () => {
             Email me
           </a>
         </div>
+        */}
       </div>
     </Layout>
   );
