@@ -18,8 +18,8 @@ const TechLeadAsAServicePage: NextPage = () => {
 
       <Paragraph>
         It is not enough for a team to have skilled individuals. In order for
-        technical teams to excell, there are many factors that need to align.
-        The day-to-day friction needs to be as close as zero as possible.
+        technical teams to excel, there are many factors that need to align. The
+        day-to-day friction needs to be as close to zero as possible.
       </Paragraph>
 
       <Paragraph>
@@ -33,22 +33,22 @@ const TechLeadAsAServicePage: NextPage = () => {
         All these topics are part of what I call “meta-development” and they are
         usually decided as after-thoughts because they don&apos;t directly
         provide value to the end users. However, they are the elements that
-        introduce friction on a daily basis making your team slower and
-        ultimately lose their motivation to ship.
+        introduce friction on a daily basis, making your team slower and
+        ultimately losing their motivation to ship.
       </Paragraph>
 
       <Paragraph>
         Young teams usually start experiencing this after shipping the MVP or
         when they start hiring more engineers to accelerate the development of
         the product v1. What was sacrificed for the sake of speed now creates
-        all kind of symptons. Slow onboarding times, regressions, users
+        all kinds of symptoms. Slow onboarding times, regressions, user
         complaints, decreased performance, lower energy levels, lack of
-        visibility about production issues, single points of failures in the
+        visibility about production issues, single points of failure in the
         team, architectures not being respected, and many more.
       </Paragraph>
 
       <Paragraph>
-        Is your team on a similar spot? You are at the right the place, keep
+        Is your team in a similar spot? You are at the right place, keep
         reading.
       </Paragraph>
 
@@ -63,7 +63,7 @@ const TechLeadAsAServicePage: NextPage = () => {
 
       <OrderedList>
         <span>
-          1. Understand your business, build relationship with your team, and
+          1. Understand your business, build relationships with your team, and
           identify the friction points (~1 week).
         </span>
         <span>
