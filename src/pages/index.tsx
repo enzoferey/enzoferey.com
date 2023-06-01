@@ -28,6 +28,18 @@ const HomePage: NextPage = () => {
             <br />
             <br />I have been doing web development for the last 11 years
             bootstrapping +50 products in a wide variety of markets 🚀
+            <br />
+            <br />
+            Currently building{" "}
+            <a
+              className="underline"
+              href="https://www.10xteam.dev"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              10xTeam.dev
+            </a>{" "}
+            🎯
           </p>
           <div className="mt-6 flex gap-6">
             <a
