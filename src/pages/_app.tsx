@@ -38,21 +38,21 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Enzo Ferey</title>
         <meta
           name="description"
-          content="Providing technical leadership to young teams | React.js lover | Maker | Blockchain"
+          content="Providing technical leadership to young teams | Maker | Blockchain"
         />
         <meta name="image" content="https://enzoferey.com/og-image.jpg" />
         {/* Schema.org for Google */}
         <meta itemProp="name" content="Enzo Ferey" />
         <meta
           itemProp="description"
-          content="Providing technical leadership to young teams | React.js lover | Maker | Blockchain"
+          content="Providing technical leadership to young teams | Maker | Blockchain"
         />
         <meta itemProp="image" content="https://enzoferey.com/og-image.jpg" />
         {/* Twitter */}
         <meta name="twitter:title" content="Enzo Ferey" />
         <meta
           name="twitter:description"
-          content="Providing technical leadership to young teams | React.js lover | Maker | Blockchain"
+          content="Providing technical leadership to young teams | Maker | Blockchain"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@enzo_ferey" />
@@ -65,7 +65,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="og:title" content="Enzo Ferey" />
         <meta
           name="og:description"
-          content="Providing technical leadership to young teams | React.js lover | Maker | Blockchain"
+          content="Providing technical leadership to young teams | Maker | Blockchain"
         />
         <meta name="og:site_name" content="Enzo Ferey" />
         <meta name="og:image" content="https://enzoferey.com/og-image.jpg" />
