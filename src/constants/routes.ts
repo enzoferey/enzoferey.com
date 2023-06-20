@@ -1,6 +1,6 @@
 export const ROUTES = Object.freeze({
   HOME: "/",
-  TECH_LEAD_AS_A_SERVICE: "/tech-lead-as-a-service",
+  TEN_X_TEAM_DEV: "/10xteamdev",
   PORTFOLIO: "/portfolio",
 
   TWITTER: "https://twitter.com/enzo_ferey",

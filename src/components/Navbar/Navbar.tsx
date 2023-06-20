@@ -107,19 +107,17 @@ export const Header: React.FC<Props> = (props) => {
               About me
             </Link>
             <Link
-              href={ROUTES.TECH_LEAD_AS_A_SERVICE}
+              href={ROUTES.TEN_X_TEAM_DEV}
               className={
-                router.pathname === ROUTES.TECH_LEAD_AS_A_SERVICE
+                router.pathname === ROUTES.TEN_X_TEAM_DEV
                   ? activeLinkClassname
                   : nonActiveLinkClassname
               }
               aria-current={
-                router.pathname === ROUTES.TECH_LEAD_AS_A_SERVICE
-                  ? "page"
-                  : undefined
+                router.pathname === ROUTES.TEN_X_TEAM_DEV ? "page" : undefined
               }
             >
-              Tech lead as-a-service
+              10xTeam.dev
             </Link>
             <Link
               href={ROUTES.PORTFOLIO}
@@ -180,15 +178,15 @@ export const Header: React.FC<Props> = (props) => {
             About me
           </Link>
           <Link
-            href={ROUTES.TECH_LEAD_AS_A_SERVICE}
+            href={ROUTES.TEN_X_TEAM_DEV}
             className={
-              router.pathname === ROUTES.TECH_LEAD_AS_A_SERVICE
+              router.pathname === ROUTES.TEN_X_TEAM_DEV
                 ? activeMobileLinkClassname
                 : nonActiveMobileLinkClassname
             }
             aria-current="page"
           >
-            Tech lead as-a-service
+            10xTeam.dev
           </Link>
           <Link
             href={ROUTES.PORTFOLIO}
