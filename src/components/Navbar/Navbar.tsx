@@ -173,7 +173,7 @@ export const Header: React.FC<Props> = (props) => {
                 ? activeMobileLinkClassname
                 : nonActiveMobileLinkClassname
             }
-            aria-current="page"
+            aria-current={router.pathname === ROUTES.HOME ? "page" : undefined}
           >
             About me
           </Link>
@@ -184,7 +184,9 @@ export const Header: React.FC<Props> = (props) => {
                 ? activeMobileLinkClassname
                 : nonActiveMobileLinkClassname
             }
-            aria-current="page"
+            aria-current={
+              router.pathname === ROUTES.TEN_X_TEAM_DEV ? "page" : undefined
+            }
           >
             10xTeam.dev
           </Link>
@@ -194,6 +196,9 @@ export const Header: React.FC<Props> = (props) => {
               router.pathname === ROUTES.PORTFOLIO
                 ? activeMobileLinkClassname
                 : nonActiveMobileLinkClassname
+            }
+            aria-current={
+              router.pathname === ROUTES.PORTFOLIO ? "page" : undefined
             }
           >
             Portfolio
