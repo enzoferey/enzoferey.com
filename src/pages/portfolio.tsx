@@ -25,15 +25,14 @@ const PortfolioPage: NextPage = () => {
         <Item
           icon={
             <svg
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 32 32"
-              style={{ width: 32, height: 32 }}
+              fill="none"
+              viewBox="0 0 309 456"
+              style={{ height: 28 }}
             >
-              <rect width="32" height="32" rx="6" fill="#6366F1" />
               <path
-                d="M16 6C10.477 6 6 10.477 6 16s4.477 10 10 10 10-4.477 10-10S21.523 6 16 6zm0 2c4.418 0 8 3.582 8 8s-3.582 8-8 8-8-3.582-8-8 3.582-8 8-8zm0 2a6 6 0 100 12 6 6 0 000-12zm0 2a4 4 0 110 8 4 4 0 010-8z"
-                fill="#fff"
+                fill="#000"
+                d="M110.357 154.18V58.833l88.286 56.126v95.347l-88.286-56.126Zm-11.853 18.566L11.84 213.18 210.5 339.298l86.643-40.27L98.504 172.746ZM297.144 56.13 208.852 0l-86.639 40.268 88.292 56.13 86.639-40.268ZM309 280.463l-88.286-56.126V115.936L309 74.903v205.56Zm0 134.504L220.714 456v-97.166L309 317.801v97.166ZM0 231.755v95.161l198.643 126.106v-95.16L0 231.755Z"
               />
             </svg>
           }
@@ -47,7 +46,7 @@ const PortfolioPage: NextPage = () => {
               agents.
               <br />
               <br />- Built and scaled the core platform features.
-              <br />- Contributed to the AI agents and automation capabilities.
+              <br />- Owned the workflow builder and monorepo architecture.
             </React.Fragment>
           }
         />
