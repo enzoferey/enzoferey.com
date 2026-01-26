@@ -25,6 +25,34 @@ const PortfolioPage: NextPage = () => {
         <Item
           icon={
             <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 309 456"
+              style={{ height: 28 }}
+            >
+              <path
+                fill="#000"
+                d="M110.357 154.18V58.833l88.286 56.126v95.347l-88.286-56.126Zm-11.853 18.566L11.84 213.18 210.5 339.298l86.643-40.27L98.504 172.746ZM297.144 56.13 208.852 0l-86.639 40.268 88.292 56.13 86.639-40.268ZM309 280.463l-88.286-56.126V115.936L309 74.903v205.56Zm0 134.504L220.714 456v-97.166L309 317.801v97.166ZM0 231.755v95.161l198.643 126.106v-95.16L0 231.755Z"
+              />
+            </svg>
+          }
+          url="https://www.getcargo.ai"
+          urlTitle="getcargo.ai"
+          title="Cargo"
+          description={
+            <React.Fragment>
+              AI-powered revenue orchestration platform that helps sales and
+              marketing teams automate their go-to-market workflows with AI
+              agents.
+              <br />
+              <br />- Built and scaled the core platform features.
+              <br />- Owned the workflow builder and monorepo architecture.
+            </React.Fragment>
+          }
+        />
+        <Item
+          icon={
+            <svg
               width="34px"
               height="40px"
               viewBox="0 0 34 40"
