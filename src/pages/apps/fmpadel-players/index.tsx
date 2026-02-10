@@ -2,6 +2,9 @@ import React from "react";
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const FMPadelPlayersPage: NextPage = () => {
   return (
@@ -14,7 +17,9 @@ const FMPadelPlayersPage: NextPage = () => {
         />
       </Head>
 
-      <div className="min-h-screen flex flex-col items-center bg-white">
+      <div
+        className={`${inter.className} min-h-screen flex flex-col items-center bg-white`}
+      >
         <main className="flex-1 flex flex-col items-center px-4 py-16 max-w-5xl mx-auto">
           <Image
             src="/images/fmpadel/logo.png"
