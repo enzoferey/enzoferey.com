@@ -26,7 +26,7 @@ const FMPadelPlayersPage: NextPage = () => {
             alt="Jugadores FMPadel"
             width={120}
             height={120}
-            className="rounded-2xl"
+            className="rounded-2xl shadow-lg"
           />
 
           <h1 className="mt-8 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl text-center">
